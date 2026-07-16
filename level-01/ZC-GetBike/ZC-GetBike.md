@@ -10,6 +10,9 @@
 - **ActionGroupStatus:** Active
 
 ---
+[![Alt text](Bike_Location.jpg)]
+[![Alt text](Bike.jpg)]
+
 
 ## ActionItems
 

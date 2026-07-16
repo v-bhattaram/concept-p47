@@ -11,6 +11,10 @@
 
 ---
 
+[![Alt text](WakeUp_Location.jpg)]
+[![Alt text](WakeUp.jpg)]
+
+
 ## ActionItems
 
 ### Trigger:Sounds in the Smoke
