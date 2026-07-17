@@ -1,19 +1,12 @@
 # ZC-Weapons-Unlock
 
-## ActionGroup
-- **ActionGroupName:** ZC-Weapons-Unlock
-- **ActionType:** StoryLine
-- **Level:** Level-01
-- **Location:** Debris Field Alpha — Field Fabricator
-- **MarkerVisibility:** Always On
-- **PreReqTrigger:** On ZC-Weapons-Crafting Complete
-- **ActionGroupStatus:** Active
+## LocationGroup = FolderName
+## Location = File Name
+## Location Actions/toDos = Trigger (3 pound ### entries in file name)
 
 ---
 [![Alt text](Bike_Location.jpg)]
 [![Alt text](Bike.jpg)]
-## ActionItems
-
 ### Trigger:Safety Unlock Granted
 - Trigger Type -> ForcedQuest
 - Order 1

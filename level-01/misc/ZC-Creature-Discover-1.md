@@ -1,18 +1,10 @@
 # ZC-Creature-Discover-1
 
-## ActionGroup
-- **ActionGroupName:** ZC-Creature-Discover-1
-- **ActionType:** SideQuest
-- **Level:** Level-01
-- **Location:** Debris Field Alpha — Creature Observation Point
-- **MarkerVisibility:** On ZC-Planet47-Creatures-Intro Complete
-- **PreReqTrigger:** On ZC-Planet47-Creatures-Intro Complete
-- **ActionGroupStatus:** Active
+## LocationGroup = FolderName
+## Location = File Name
+## Location Actions/toDos = Trigger (3 pound ### entries in file name)
 
 ---
-
-## ActionItems
-
 ### Trigger:SURD Requests Scan
 - Trigger Type -> SideQuest
 - Order 1

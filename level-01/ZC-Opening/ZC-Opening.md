@@ -4,19 +4,11 @@
 [![Alt text](WakeUp.jpg)]
 
 
-## ActionGroup
-- **ActionGroupName:** ZC-Opening
-- **ActionType:** StoryLine
-- **Level:** Level-01
-- **Location:** Crash Site — Module Alpha
-- **MarkerVisibility:** Always On
-- **PreReqTrigger:** On Map Load
-- **ActionGroupStatus:** Active
+## LocationGroup = FolderName
+## Location = File Name
+## Location Actions/toDos = Trigger (3 pound ### entries in file name)
 
 ---
-
-## ActionItems
-
 ### Trigger:Title Sequence
 - Trigger Type -> Cutscene
 - Order 1

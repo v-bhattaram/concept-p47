@@ -1,22 +1,13 @@
 # ZC-Planet47-Creatures-Intro
 
-## ActionGroup
-- **ActionGroupName:** ZC-Planet47-Creatures-Intro
-- **ActionType:** StoryLine
-- **Level:** Level-01
-- **Location:** Debris Field Alpha
-- **MarkerVisibility:** Always On
-- **PreReqTrigger:** On ZC-Planet47 Complete
-- **ActionGroupStatus:** Active
+## LocationGroup = FolderName
+## Location = File Name
+## Location Actions/toDos = Trigger (3 pound ### entries in file name)
 
 ---
 
 [![Alt text](WakeUp_Location.jpg)]
 [![Alt text](WakeUp.jpg)]
-
-
-## ActionItems
-
 ### Trigger:Sounds in the Smoke
 - Trigger Type -> ForcedQuest
 - Order 1

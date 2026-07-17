@@ -1,21 +1,12 @@
 # ZC-GetBike
 
-## ActionGroup
-- **ActionGroupName:** ZC-GetBike
-- **ActionType:** StoryLine
-- **Level:** Level-01
-- **Location:** Debris Field Beta — Vehicle Crate
-- **MarkerVisibility:** Always On
-- **PreReqTrigger:** On ZC-Planet47-Creatures1 Complete
-- **ActionGroupStatus:** Active
+## LocationGroup = FolderName
+## Location = File Name
+## Location Actions/toDos = Trigger (3 pound ### entries in file name)
 
 ---
 [![Alt text](Bike_Location.jpg)]
 [![Alt text](Bike.jpg)]
-
-
-## ActionItems
-
 ### Trigger:SURD Detects Vehicle Crate
 - Trigger Type -> ForcedQuest
 - Order 1

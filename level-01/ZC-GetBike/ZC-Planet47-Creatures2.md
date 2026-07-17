@@ -1,18 +1,10 @@
 # ZC-Planet47-Creatures2
 
-## ActionGroup
-- **ActionGroupName:** ZC-Planet47-Creatures2
-- **ActionType:** StoryLine
-- **Level:** Level-01
-- **Location:** Debris Field Beta — Armored Creature Territory
-- **MarkerVisibility:** Always On
-- **PreReqTrigger:** On ZC-GetDrone Complete
-- **ActionGroupStatus:** Active
+## LocationGroup = FolderName
+## Location = File Name
+## Location Actions/toDos = Trigger (3 pound ### entries in file name)
 
 ---
-
-## ActionItems
-
 ### Trigger:Drone First Scout
 - Trigger Type -> ForcedQuest
 - Order 1

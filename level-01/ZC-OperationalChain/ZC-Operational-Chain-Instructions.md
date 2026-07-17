@@ -1,18 +1,10 @@
 # ZC-Operational-Chain-Instructions
 
-## ActionGroup
-- **ActionGroupName:** ZC-Operational-Chain-Instructions
-- **ActionType:** StoryLine
-- **Level:** Level-01
-- **Location:** Signal Peak — Temporary Relay (safe distance from creature territory)
-- **MarkerVisibility:** Always On
-- **PreReqTrigger:** On ZC-Planet47-Creatures3 Complete
-- **ActionGroupStatus:** Active
+## LocationGroup = FolderName
+## Location = File Name
+## Location Actions/toDos = Trigger (3 pound ### entries in file name)
 
 ---
-
-## ActionItems
-
 ### Trigger:Orbital Command Reconnects
 - Trigger Type -> ForcedQuest
 - Order 1

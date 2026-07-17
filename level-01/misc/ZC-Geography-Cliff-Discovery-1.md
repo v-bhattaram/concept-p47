@@ -1,18 +1,10 @@
 # ZC-Geography-Cliff-Discovery-1
 
-## ActionGroup
-- **ActionGroupName:** ZC-Geography-Cliff-Discovery-1
-- **ActionType:** SideQuest
-- **Level:** Level-01
-- **Location:** Sector Northeast — Cliff Edge Overlook
-- **MarkerVisibility:** On ZC-GetBike Complete
-- **PreReqTrigger:** On ZC-GetBike Complete
-- **ActionGroupStatus:** Active
+## LocationGroup = FolderName
+## Location = File Name
+## Location Actions/toDos = Trigger (3 pound ### entries in file name)
 
 ---
-
-## ActionItems
-
 ### Trigger:SURD Flags Elevation Point
 - Trigger Type -> SideQuest
 - Order 1

@@ -1,18 +1,10 @@
 # ZC-Planet47-Creatures4
 
-## ActionGroup
-- **ActionGroupName:** ZC-Planet47-Creatures4
-- **ActionType:** StoryLine
-- **Level:** Level-01
-- **Location:** Energy Tower Site — Perimeter
-- **MarkerVisibility:** Always On
-- **PreReqTrigger:** On ZC-Operational-Chain-Energy-Tower-Instructions Complete
-- **ActionGroupStatus:** Active
+## LocationGroup = FolderName
+## Location = File Name
+## Location Actions/toDos = Trigger (3 pound ### entries in file name)
 
 ---
-
-## ActionItems
-
 ### Trigger:Aerial Contacts Detected
 - Trigger Type -> ForcedQuest
 - Order 1

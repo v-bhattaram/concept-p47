@@ -1,18 +1,10 @@
 # ZC-GetDrone
 
-## ActionGroup
-- **ActionGroupName:** ZC-GetDrone
-- **ActionType:** StoryLine
-- **Level:** Level-01
-- **Location:** Buried Command Module
-- **MarkerVisibility:** Always On
-- **PreReqTrigger:** On ZC-GetBike Complete
-- **ActionGroupStatus:** Active
+## LocationGroup = FolderName
+## Location = File Name
+## Location Actions/toDos = Trigger (3 pound ### entries in file name)
 
 ---
-
-## ActionItems
-
 ### Trigger:Find the Type-P Terminal
 - Trigger Type -> ForcedQuest
 - Order 1

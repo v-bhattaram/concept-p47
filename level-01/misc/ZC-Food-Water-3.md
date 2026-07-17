@@ -1,18 +1,10 @@
 # ZC-Food-Water-3
 
-## ActionGroup
-- **ActionGroupName:** ZC-Food-Water-3
-- **ActionType:** SideQuest
-- **Level:** Level-01
-- **Location:** Wreckage Grid — Hidden Storage Module
-- **MarkerVisibility:** On ZC-Food-Water-2 Complete
-- **PreReqTrigger:** On ZC-Food-Water-2 Complete
-- **ActionGroupStatus:** Active
+## LocationGroup = FolderName
+## Location = File Name
+## Location Actions/toDos = Trigger (3 pound ### entries in file name)
 
 ---
-
-## ActionItems
-
 ### Trigger:SURD Detects High-Value Cache Signal
 - Trigger Type -> SideQuest
 - Order 1
