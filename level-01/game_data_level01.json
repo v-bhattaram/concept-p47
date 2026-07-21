@@ -2,6 +2,981 @@
   "level": "level-01",
   "location_groups": [
     {
+      "location_group": "ZC-GetBike",
+      "locations": [
+        {
+          "location": "ZC-Energy-Crystals-Intro",
+          "triggers": [
+            {
+              "Order-Trigger": "1-Unusual Energy Detected",
+              "trigger": "Unusual Energy Detected",
+              "location$$trigger": "ZC-Energy-Crystals-Intro$$Unusual Energy Detected",
+              "dialogues": [
+                {
+                  "character": "Player",
+                  "dialogue": "These crystals are powering the wreckage?",
+                  "audio_file_location_female": "dialogs/ZC-GetBike/ZC-Energy-Crystals-Intro/1-Unusual Energy Detected/01-Player-Female.mp3",
+                  "audio_file_location_male": "dialogs/ZC-GetBike/ZC-Energy-Crystals-Intro/1-Unusual Energy Detected/01-Player-Male.mp3"
+                },
+                {
+                  "character": "SURD",
+                  "dialogue": "Partially. Zegas catalog lists similar materials as high-density energy storage.",
+                  "audio_file_location": "dialogs/ZC-GetBike/ZC-Energy-Crystals-Intro/1-Unusual Energy Detected/02-surd.mp3"
+                },
+                {
+                  "character": "Player",
+                  "dialogue": "Similar materials?",
+                  "audio_file_location_female": "dialogs/ZC-GetBike/ZC-Energy-Crystals-Intro/1-Unusual Energy Detected/03-Player-Female.mp3",
+                  "audio_file_location_male": "dialogs/ZC-GetBike/ZC-Energy-Crystals-Intro/1-Unusual Energy Detected/03-Player-Male.mp3"
+                },
+                {
+                  "character": "SURD",
+                  "dialogue": "This planet's version is undocumented.",
+                  "audio_file_location": "dialogs/ZC-GetBike/ZC-Energy-Crystals-Intro/1-Unusual Energy Detected/04-surd.mp3"
+                },
+                {
+                  "character": "Player",
+                  "dialogue": "Great. Unknown creatures, unknown crystals, no comms.",
+                  "audio_file_location_female": "dialogs/ZC-GetBike/ZC-Energy-Crystals-Intro/1-Unusual Energy Detected/05-Player-Female.mp3",
+                  "audio_file_location_male": "dialogs/ZC-GetBike/ZC-Energy-Crystals-Intro/1-Unusual Energy Detected/05-Player-Male.mp3"
+                }
+              ]
+            },
+            {
+              "Order-Trigger": "2-Crystal Scanner Unlocked",
+              "trigger": "Crystal Scanner Unlocked",
+              "location$$trigger": "ZC-Energy-Crystals-Intro$$Crystal Scanner Unlocked",
+              "dialogues": [
+                {
+                  "character": "SURD",
+                  "dialogue": "Activating crystal scanner. Stable crystals glow steady. Overloaded crystals pulse. Do not collect a pulsing crystal without stabilizing it first.",
+                  "audio_file_location": "dialogs/ZC-GetBike/ZC-Energy-Crystals-Intro/2-Crystal Scanner Unlocked/01-surd.mp3"
+                },
+                {
+                  "character": "Player",
+                  "dialogue": "What happens if I do?",
+                  "audio_file_location_female": "dialogs/ZC-GetBike/ZC-Energy-Crystals-Intro/2-Crystal Scanner Unlocked/02-Player-Female.mp3",
+                  "audio_file_location_male": "dialogs/ZC-GetBike/ZC-Energy-Crystals-Intro/2-Crystal Scanner Unlocked/02-Player-Male.mp3"
+                },
+                {
+                  "character": "SURD",
+                  "dialogue": "Energy discharge. Painful. Possibly fatal depending on the charge level.",
+                  "audio_file_location": "dialogs/ZC-GetBike/ZC-Energy-Crystals-Intro/2-Crystal Scanner Unlocked/03-surd.mp3"
+                },
+                {
+                  "character": "Player",
+                  "dialogue": "Steady glow, safe. Pulsing, do not touch. Understood.",
+                  "audio_file_location_female": "dialogs/ZC-GetBike/ZC-Energy-Crystals-Intro/2-Crystal Scanner Unlocked/04-Player-Female.mp3",
+                  "audio_file_location_male": "dialogs/ZC-GetBike/ZC-Energy-Crystals-Intro/2-Crystal Scanner Unlocked/04-Player-Male.mp3"
+                }
+              ]
+            },
+            {
+              "Order-Trigger": "3-Collect Stable Crystals",
+              "trigger": "Collect Stable Crystals",
+              "location$$trigger": "ZC-Energy-Crystals-Intro$$Collect Stable Crystals",
+              "dialogues": [
+                {
+                  "character": "Player",
+                  "dialogue": "These are in almost every crack in the crash zone.",
+                  "audio_file_location_female": "dialogs/ZC-GetBike/ZC-Energy-Crystals-Intro/3-Collect Stable Crystals/01-Player-Female.mp3",
+                  "audio_file_location_male": "dialogs/ZC-GetBike/ZC-Energy-Crystals-Intro/3-Collect Stable Crystals/01-Player-Male.mp3"
+                },
+                {
+                  "character": "SURD",
+                  "dialogue": "The crash may have fractured subsurface crystal formations. The planet has them in abundance.",
+                  "audio_file_location": "dialogs/ZC-GetBike/ZC-Energy-Crystals-Intro/3-Collect Stable Crystals/02-surd.mp3"
+                },
+                {
+                  "character": "Player",
+                  "dialogue": "So we landed on a power source.",
+                  "audio_file_location_female": "dialogs/ZC-GetBike/ZC-Energy-Crystals-Intro/3-Collect Stable Crystals/03-Player-Female.mp3",
+                  "audio_file_location_male": "dialogs/ZC-GetBike/ZC-Energy-Crystals-Intro/3-Collect Stable Crystals/03-Player-Male.mp3"
+                },
+                {
+                  "character": "SURD",
+                  "dialogue": "Among other things. Collect the stable ones.",
+                  "audio_file_location": "dialogs/ZC-GetBike/ZC-Energy-Crystals-Intro/3-Collect Stable Crystals/04-surd.mp3"
+                }
+              ]
+            },
+            {
+              "Order-Trigger": "4-Charge a Zegas System",
+              "trigger": "Charge a Zegas System",
+              "location$$trigger": "ZC-Energy-Crystals-Intro$$Charge a Zegas System",
+              "dialogues": [
+                {
+                  "character": "SURD",
+                  "dialogue": "Insert crystals into the damaged comms panel. It needs power before it can even be assessed for repair.",
+                  "audio_file_location": "dialogs/ZC-GetBike/ZC-Energy-Crystals-Intro/4-Charge a Zegas System/01-surd.mp3"
+                },
+                {
+                  "character": "Player",
+                  "dialogue": "Using an undocumented alien crystal to power Zegas corporate hardware.",
+                  "audio_file_location_female": "dialogs/ZC-GetBike/ZC-Energy-Crystals-Intro/4-Charge a Zegas System/02-Player-Female.mp3",
+                  "audio_file_location_male": "dialogs/ZC-GetBike/ZC-Energy-Crystals-Intro/4-Charge a Zegas System/02-Player-Male.mp3"
+                },
+                {
+                  "character": "SURD",
+                  "dialogue": "It is compatible. I confirmed the energy frequency. Mostly.",
+                  "audio_file_location": "dialogs/ZC-GetBike/ZC-Energy-Crystals-Intro/4-Charge a Zegas System/03-surd.mp3"
+                },
+                {
+                  "character": "Player",
+                  "dialogue": "Mostly.",
+                  "audio_file_location_female": "dialogs/ZC-GetBike/ZC-Energy-Crystals-Intro/4-Charge a Zegas System/04-Player-Female.mp3",
+                  "audio_file_location_male": "dialogs/ZC-GetBike/ZC-Energy-Crystals-Intro/4-Charge a Zegas System/04-Player-Male.mp3"
+                },
+                {
+                  "character": "SURD",
+                  "dialogue": "The Zegas team who catalogued similar materials gave it a 94 percent compatibility rating.",
+                  "audio_file_location": "dialogs/ZC-GetBike/ZC-Energy-Crystals-Intro/4-Charge a Zegas System/05-surd.mp3"
+                },
+                {
+                  "character": "Player",
+                  "dialogue": "And the other 6 percent?",
+                  "audio_file_location_female": "dialogs/ZC-GetBike/ZC-Energy-Crystals-Intro/4-Charge a Zegas System/06-Player-Female.mp3",
+                  "audio_file_location_male": "dialogs/ZC-GetBike/ZC-Energy-Crystals-Intro/4-Charge a Zegas System/06-Player-Male.mp3"
+                },
+                {
+                  "character": "SURD",
+                  "dialogue": "I would not recommend testing it today.",
+                  "audio_file_location": "dialogs/ZC-GetBike/ZC-Energy-Crystals-Intro/4-Charge a Zegas System/07-surd.mp3"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "location": "ZC-Food-Water-Intro",
+          "triggers": [
+            {
+              "Order-Trigger": "1-Suit Hydration Warning",
+              "trigger": "Suit Hydration Warning",
+              "location$$trigger": "ZC-Food-Water-Intro$$Suit Hydration Warning",
+              "dialogues": [
+                {
+                  "character": "Player",
+                  "dialogue": "Natural water is not worth the risk. I need sealed Zegas supplies.",
+                  "audio_file_location_female": "dialogs/ZC-GetBike/ZC-Food-Water-Intro/1-Suit Hydration Warning/01-Player-Female.mp3",
+                  "audio_file_location_male": "dialogs/ZC-GetBike/ZC-Food-Water-Intro/1-Suit Hydration Warning/01-Player-Male.mp3"
+                },
+                {
+                  "character": "SURD",
+                  "dialogue": "Correct. Unknown biological contamination probability is unacceptable.",
+                  "audio_file_location": "dialogs/ZC-GetBike/ZC-Food-Water-Intro/1-Suit Hydration Warning/02-surd.mp3"
+                },
+                {
+                  "character": "Player",
+                  "dialogue": "So I live on corporate ration packs. Perfect.",
+                  "audio_file_location_female": "dialogs/ZC-GetBike/ZC-Food-Water-Intro/1-Suit Hydration Warning/03-Player-Female.mp3",
+                  "audio_file_location_male": "dialogs/ZC-GetBike/ZC-Food-Water-Intro/1-Suit Hydration Warning/03-Player-Male.mp3"
+                },
+                {
+                  "character": "SURD",
+                  "dialogue": "Survival preference logged.",
+                  "audio_file_location": "dialogs/ZC-GetBike/ZC-Food-Water-Intro/1-Suit Hydration Warning/04-surd.mp3"
+                }
+              ]
+            },
+            {
+              "Order-Trigger": "2-Find Survival Supplies",
+              "trigger": "Find Survival Supplies",
+              "location$$trigger": "ZC-Food-Water-Intro$$Find Survival Supplies",
+              "dialogues": [
+                {
+                  "character": "SURD",
+                  "dialogue": "Containers may include ration packs, sealed water cartridges, suit hydration cells, and emergency nutrient gel.",
+                  "audio_file_location": "dialogs/ZC-GetBike/ZC-Food-Water-Intro/2-Find Survival Supplies/01-surd.mp3"
+                },
+                {
+                  "character": "Player",
+                  "dialogue": "What if a container is damaged?",
+                  "audio_file_location_female": "dialogs/ZC-GetBike/ZC-Food-Water-Intro/2-Find Survival Supplies/02-Player-Female.mp3",
+                  "audio_file_location_male": "dialogs/ZC-GetBike/ZC-Food-Water-Intro/2-Find Survival Supplies/02-Player-Male.mp3"
+                },
+                {
+                  "character": "SURD",
+                  "dialogue": "Scan it first. If the seal is breached, the contents may be contaminated.",
+                  "audio_file_location": "dialogs/ZC-GetBike/ZC-Food-Water-Intro/2-Find Survival Supplies/03-surd.mp3"
+                },
+                {
+                  "character": "Player",
+                  "dialogue": "Scan everything. Got it.",
+                  "audio_file_location_female": "dialogs/ZC-GetBike/ZC-Food-Water-Intro/2-Find Survival Supplies/04-Player-Female.mp3",
+                  "audio_file_location_male": "dialogs/ZC-GetBike/ZC-Food-Water-Intro/2-Find Survival Supplies/04-Player-Male.mp3"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "location": "ZC-GetBike",
+          "triggers": [
+            {
+              "Order-Trigger": "1-SURD Detects Vehicle Crate",
+              "trigger": "SURD Detects Vehicle Crate",
+              "location$$trigger": "ZC-GetBike$$SURD Detects Vehicle Crate",
+              "dialogues": [
+                {
+                  "character": "SURD",
+                  "dialogue": "Manifest Bike detected. Designed for rapid traversal across mining terrain.",
+                  "audio_file_location": "dialogs/ZC-GetBike/ZC-GetBike/1-SURD Detects Vehicle Crate/01-surd.mp3"
+                },
+                {
+                  "character": "Player",
+                  "dialogue": "A vehicle crate. Finally, something useful.",
+                  "audio_file_location_female": "dialogs/ZC-GetBike/ZC-GetBike/1-SURD Detects Vehicle Crate/02-Player-Female.mp3",
+                  "audio_file_location_male": "dialogs/ZC-GetBike/ZC-GetBike/1-SURD Detects Vehicle Crate/02-Player-Male.mp3"
+                },
+                {
+                  "character": "SURD",
+                  "dialogue": "It appears when summoned and hides when dismissed. Phase-fold storage, suit-linked recall.",
+                  "audio_file_location": "dialogs/ZC-GetBike/ZC-GetBike/1-SURD Detects Vehicle Crate/03-surd.mp3"
+                },
+                {
+                  "character": "Player",
+                  "dialogue": "It appears when needed and hides when not needed?",
+                  "audio_file_location_female": "dialogs/ZC-GetBike/ZC-GetBike/1-SURD Detects Vehicle Crate/04-Player-Female.mp3",
+                  "audio_file_location_male": "dialogs/ZC-GetBike/ZC-GetBike/1-SURD Detects Vehicle Crate/04-Player-Male.mp3"
+                },
+                {
+                  "character": "SURD",
+                  "dialogue": "Correct. Keep it intact. You are slow without it.",
+                  "audio_file_location": "dialogs/ZC-GetBike/ZC-GetBike/1-SURD Detects Vehicle Crate/05-surd.mp3"
+                },
+                {
+                  "character": "Player",
+                  "dialogue": "Nice to know you are already judging my walking speed.",
+                  "audio_file_location_female": "dialogs/ZC-GetBike/ZC-GetBike/1-SURD Detects Vehicle Crate/06-Player-Female.mp3",
+                  "audio_file_location_male": "dialogs/ZC-GetBike/ZC-GetBike/1-SURD Detects Vehicle Crate/06-Player-Male.mp3"
+                }
+              ]
+            },
+            {
+              "Order-Trigger": "2-Clear Debris from Crate",
+              "trigger": "Clear Debris from Crate",
+              "location$$trigger": "ZC-GetBike$$Clear Debris from Crate",
+              "dialogues": [
+                {
+                  "character": "Player",
+                  "dialogue": "This is going to take a few minutes.",
+                  "audio_file_location_female": "dialogs/ZC-GetBike/ZC-GetBike/2-Clear Debris from Crate/01-Player-Female.mp3",
+                  "audio_file_location_male": "dialogs/ZC-GetBike/ZC-GetBike/2-Clear Debris from Crate/01-Player-Male.mp3"
+                },
+                {
+                  "character": "SURD",
+                  "dialogue": "You have a pulse cutter.",
+                  "audio_file_location": "dialogs/ZC-GetBike/ZC-GetBike/2-Clear Debris from Crate/02-surd.mp3"
+                },
+                {
+                  "character": "Player",
+                  "dialogue": "I am not wasting charge on rocks.",
+                  "audio_file_location_female": "dialogs/ZC-GetBike/ZC-GetBike/2-Clear Debris from Crate/03-Player-Female.mp3",
+                  "audio_file_location_male": "dialogs/ZC-GetBike/ZC-GetBike/2-Clear Debris from Crate/03-Player-Male.mp3"
+                },
+                {
+                  "character": "SURD",
+                  "dialogue": "Then you have a few minutes.",
+                  "audio_file_location": "dialogs/ZC-GetBike/ZC-GetBike/2-Clear Debris from Crate/04-surd.mp3"
+                }
+              ]
+            },
+            {
+              "Order-Trigger": "3-Install Power Cell",
+              "trigger": "Install Power Cell",
+              "location$$trigger": "ZC-GetBike$$Install Power Cell",
+              "dialogues": [
+                {
+                  "character": "SURD",
+                  "dialogue": "The bike needs a power cell. Insert a stable energy crystal into the crate port.",
+                  "audio_file_location": "dialogs/ZC-GetBike/ZC-GetBike/3-Install Power Cell/01-surd.mp3"
+                },
+                {
+                  "character": "Player",
+                  "dialogue": "Same crystals. Every system runs on these.",
+                  "audio_file_location_female": "dialogs/ZC-GetBike/ZC-GetBike/3-Install Power Cell/02-Player-Female.mp3",
+                  "audio_file_location_male": "dialogs/ZC-GetBike/ZC-GetBike/3-Install Power Cell/02-Player-Male.mp3"
+                },
+                {
+                  "character": "SURD",
+                  "dialogue": "Efficient design.",
+                  "audio_file_location": "dialogs/ZC-GetBike/ZC-GetBike/3-Install Power Cell/03-surd.mp3"
+                },
+                {
+                  "character": "Player",
+                  "dialogue": "Or we are dangerously dependent on one resource.",
+                  "audio_file_location_female": "dialogs/ZC-GetBike/ZC-GetBike/3-Install Power Cell/04-Player-Female.mp3",
+                  "audio_file_location_male": "dialogs/ZC-GetBike/ZC-GetBike/3-Install Power Cell/04-Player-Male.mp3"
+                },
+                {
+                  "character": "SURD",
+                  "dialogue": "That is also correct.",
+                  "audio_file_location": "dialogs/ZC-GetBike/ZC-GetBike/3-Install Power Cell/05-surd.mp3"
+                }
+              ]
+            },
+            {
+              "Order-Trigger": "4-Sync Bike to Suit",
+              "trigger": "Sync Bike to Suit",
+              "location$$trigger": "ZC-GetBike$$Sync Bike to Suit",
+              "dialogues": [
+                {
+                  "character": "SURD",
+                  "dialogue": "Syncing bike to suit. Hold still.",
+                  "audio_file_location": "dialogs/ZC-GetBike/ZC-GetBike/4-Sync Bike to Suit/01-surd.mp3"
+                },
+                {
+                  "character": "Player",
+                  "dialogue": "Synced. What does that mean?",
+                  "audio_file_location_female": "dialogs/ZC-GetBike/ZC-GetBike/4-Sync Bike to Suit/02-Player-Female.mp3",
+                  "audio_file_location_male": "dialogs/ZC-GetBike/ZC-GetBike/4-Sync Bike to Suit/02-Player-Male.mp3"
+                },
+                {
+                  "character": "SURD",
+                  "dialogue": "You can summon it from anywhere in open terrain. Dismiss it by pressing and holding. It returns to phase-fold storage.",
+                  "audio_file_location": "dialogs/ZC-GetBike/ZC-GetBike/4-Sync Bike to Suit/03-surd.mp3"
+                },
+                {
+                  "character": "Player",
+                  "dialogue": "And if I dismiss it near a cliff?",
+                  "audio_file_location_female": "dialogs/ZC-GetBike/ZC-GetBike/4-Sync Bike to Suit/04-Player-Female.mp3",
+                  "audio_file_location_male": "dialogs/ZC-GetBike/ZC-GetBike/4-Sync Bike to Suit/04-Player-Male.mp3"
+                },
+                {
+                  "character": "SURD",
+                  "dialogue": "It will be in storage. Not at the bottom of the cliff.",
+                  "audio_file_location": "dialogs/ZC-GetBike/ZC-GetBike/4-Sync Bike to Suit/05-surd.mp3"
+                }
+              ]
+            },
+            {
+              "Order-Trigger": "5-Test Summon and Dismiss",
+              "trigger": "Test Summon and Dismiss",
+              "location$$trigger": "ZC-GetBike$$Test Summon and Dismiss",
+              "dialogues": [
+                {
+                  "character": "SURD",
+                  "dialogue": "Test the summon. Then dismiss it and summon it again.",
+                  "audio_file_location": "dialogs/ZC-GetBike/ZC-GetBike/5-Test Summon and Dismiss/01-surd.mp3"
+                },
+                {
+                  "character": "Player",
+                  "dialogue": "It actually works.",
+                  "audio_file_location_female": "dialogs/ZC-GetBike/ZC-GetBike/5-Test Summon and Dismiss/02-Player-Female.mp3",
+                  "audio_file_location_male": "dialogs/ZC-GetBike/ZC-GetBike/5-Test Summon and Dismiss/02-Player-Male.mp3"
+                },
+                {
+                  "character": "SURD",
+                  "dialogue": "Did you expect otherwise?",
+                  "audio_file_location": "dialogs/ZC-GetBike/ZC-GetBike/5-Test Summon and Dismiss/03-surd.mp3"
+                },
+                {
+                  "character": "Player",
+                  "dialogue": "After today? Yes.",
+                  "audio_file_location_female": "dialogs/ZC-GetBike/ZC-GetBike/5-Test Summon and Dismiss/04-Player-Female.mp3",
+                  "audio_file_location_male": "dialogs/ZC-GetBike/ZC-GetBike/5-Test Summon and Dismiss/04-Player-Male.mp3"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "location": "ZC-Minerals-Intro",
+          "triggers": [
+            {
+              "Order-Trigger": "1-Tools Need Repair",
+              "trigger": "Tools Need Repair",
+              "location$$trigger": "ZC-Minerals-Intro$$Tools Need Repair",
+              "dialogues": [
+                {
+                  "character": "SURD",
+                  "dialogue": "Your equipment cannot be repaired with ration packs.",
+                  "audio_file_location": "dialogs/ZC-GetBike/ZC-Minerals-Intro/1-Tools Need Repair/01-surd.mp3"
+                },
+                {
+                  "character": "Player",
+                  "dialogue": "I guessed that part.",
+                  "audio_file_location_female": "dialogs/ZC-GetBike/ZC-Minerals-Intro/1-Tools Need Repair/02-Player-Female.mp3",
+                  "audio_file_location_male": "dialogs/ZC-GetBike/ZC-Minerals-Intro/1-Tools Need Repair/02-Player-Male.mp3"
+                },
+                {
+                  "character": "SURD",
+                  "dialogue": "Search for ferrite mesh, conduit ore, and Zegas alloy fragments.",
+                  "audio_file_location": "dialogs/ZC-GetBike/ZC-Minerals-Intro/1-Tools Need Repair/03-surd.mp3"
+                },
+                {
+                  "character": "Player",
+                  "dialogue": "Mining company crashes on a planet and I still have to mine. That tracks.",
+                  "audio_file_location_female": "dialogs/ZC-GetBike/ZC-Minerals-Intro/1-Tools Need Repair/04-Player-Female.mp3",
+                  "audio_file_location_male": "dialogs/ZC-GetBike/ZC-Minerals-Intro/1-Tools Need Repair/04-Player-Male.mp3"
+                }
+              ]
+            },
+            {
+              "Order-Trigger": "2-Mineral Scanner Unlocked",
+              "trigger": "Mineral Scanner Unlocked",
+              "location$$trigger": "ZC-Minerals-Intro$$Mineral Scanner Unlocked",
+              "dialogues": [
+                {
+                  "character": "SURD",
+                  "dialogue": "Activating suit mineral scanner. Use it to identify deposits and salvage grades.",
+                  "audio_file_location": "dialogs/ZC-GetBike/ZC-Minerals-Intro/2-Mineral Scanner Unlocked/01-surd.mp3"
+                },
+                {
+                  "character": "Player",
+                  "dialogue": "How accurate is it?",
+                  "audio_file_location_female": "dialogs/ZC-GetBike/ZC-Minerals-Intro/2-Mineral Scanner Unlocked/02-Player-Female.mp3",
+                  "audio_file_location_male": "dialogs/ZC-GetBike/ZC-Minerals-Intro/2-Mineral Scanner Unlocked/02-Player-Male.mp3"
+                },
+                {
+                  "character": "SURD",
+                  "dialogue": "Sufficient for surface and near-surface deposits. Deeper veins require full mining equipment.",
+                  "audio_file_location": "dialogs/ZC-GetBike/ZC-Minerals-Intro/2-Mineral Scanner Unlocked/03-surd.mp3"
+                },
+                {
+                  "character": "Player",
+                  "dialogue": "Which we do not have.",
+                  "audio_file_location_female": "dialogs/ZC-GetBike/ZC-Minerals-Intro/2-Mineral Scanner Unlocked/04-Player-Female.mp3",
+                  "audio_file_location_male": "dialogs/ZC-GetBike/ZC-Minerals-Intro/2-Mineral Scanner Unlocked/04-Player-Male.mp3"
+                },
+                {
+                  "character": "SURD",
+                  "dialogue": "Correct. Work with what crashed.",
+                  "audio_file_location": "dialogs/ZC-GetBike/ZC-Minerals-Intro/2-Mineral Scanner Unlocked/05-surd.mp3"
+                }
+              ]
+            },
+            {
+              "Order-Trigger": "3-Find Repair Minerals",
+              "trigger": "Find Repair Minerals",
+              "location$$trigger": "ZC-Minerals-Intro$$Find Repair Minerals",
+              "dialogues": [
+                {
+                  "character": "Player",
+                  "dialogue": "Some of these crash craters exposed rock layers below the surface.",
+                  "audio_file_location_female": "dialogs/ZC-GetBike/ZC-Minerals-Intro/3-Find Repair Minerals/01-Player-Female.mp3",
+                  "audio_file_location_male": "dialogs/ZC-GetBike/ZC-Minerals-Intro/3-Find Repair Minerals/01-Player-Male.mp3"
+                },
+                {
+                  "character": "SURD",
+                  "dialogue": "Crash impact does the work that mining equipment normally handles. Collect from the exposed faces.",
+                  "audio_file_location": "dialogs/ZC-GetBike/ZC-Minerals-Intro/3-Find Repair Minerals/02-surd.mp3"
+                }
+              ]
+            },
+            {
+              "Order-Trigger": "4-Return Materials to Fabricator",
+              "trigger": "Return Materials to Fabricator",
+              "location$$trigger": "ZC-Minerals-Intro$$Return Materials to Fabricator",
+              "dialogues": [
+                {
+                  "character": "SURD",
+                  "dialogue": "That is enough to start repairs. The suit fabricator can process these.",
+                  "audio_file_location": "dialogs/ZC-GetBike/ZC-Minerals-Intro/4-Return Materials to Fabricator/01-surd.mp3"
+                },
+                {
+                  "character": "Player",
+                  "dialogue": "Where is the fabricator?",
+                  "audio_file_location_female": "dialogs/ZC-GetBike/ZC-Minerals-Intro/4-Return Materials to Fabricator/02-Player-Female.mp3",
+                  "audio_file_location_male": "dialogs/ZC-GetBike/ZC-Minerals-Intro/4-Return Materials to Fabricator/02-Player-Male.mp3"
+                },
+                {
+                  "character": "SURD",
+                  "dialogue": "Nearby. I am marking it. It is damaged but functional.",
+                  "audio_file_location": "dialogs/ZC-GetBike/ZC-Minerals-Intro/4-Return Materials to Fabricator/03-surd.mp3"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "location": "ZC-Planet47-Creatures2",
+          "triggers": [
+            {
+              "Order-Trigger": "1-Drone First Scout",
+              "trigger": "Drone First Scout",
+              "location$$trigger": "ZC-Planet47-Creatures2$$Drone First Scout",
+              "dialogues": [
+                {
+                  "character": "SURD",
+                  "dialogue": "Movement detected ahead. Larger creature. Heavy exterior plating.",
+                  "audio_file_location": "dialogs/ZC-GetBike/ZC-Planet47-Creatures2/1-Drone First Scout/01-surd.mp3"
+                },
+                {
+                  "character": "Player",
+                  "dialogue": "Can your drone shoot it?",
+                  "audio_file_location_female": "dialogs/ZC-GetBike/ZC-Planet47-Creatures2/1-Drone First Scout/02-Player-Female.mp3",
+                  "audio_file_location_male": "dialogs/ZC-GetBike/ZC-Planet47-Creatures2/1-Drone First Scout/02-Player-Male.mp3"
+                },
+                {
+                  "character": "SURD",
+                  "dialogue": "Yes. Ineffectively.",
+                  "audio_file_location": "dialogs/ZC-GetBike/ZC-Planet47-Creatures2/1-Drone First Scout/03-surd.mp3"
+                },
+                {
+                  "character": "Player",
+                  "dialogue": "Recon it is.",
+                  "audio_file_location_female": "dialogs/ZC-GetBike/ZC-Planet47-Creatures2/1-Drone First Scout/04-Player-Female.mp3",
+                  "audio_file_location_male": "dialogs/ZC-GetBike/ZC-Planet47-Creatures2/1-Drone First Scout/04-Player-Male.mp3"
+                },
+                {
+                  "character": "SURD",
+                  "dialogue": "Sensible choice.",
+                  "audio_file_location": "dialogs/ZC-GetBike/ZC-Planet47-Creatures2/1-Drone First Scout/05-surd.mp3"
+                }
+              ]
+            },
+            {
+              "Order-Trigger": "2-Mark Patrol Routes",
+              "trigger": "Mark Patrol Routes",
+              "location$$trigger": "ZC-Planet47-Creatures2$$Mark Patrol Routes",
+              "dialogues": [
+                {
+                  "character": "SURD",
+                  "dialogue": "One armored creature. Patrol circuit covers the central passage and the east debris pile.",
+                  "audio_file_location": "dialogs/ZC-GetBike/ZC-Planet47-Creatures2/2-Mark Patrol Routes/01-surd.mp3"
+                },
+                {
+                  "character": "Player",
+                  "dialogue": "How long is the circuit?",
+                  "audio_file_location_female": "dialogs/ZC-GetBike/ZC-Planet47-Creatures2/2-Mark Patrol Routes/02-Player-Female.mp3",
+                  "audio_file_location_male": "dialogs/ZC-GetBike/ZC-Planet47-Creatures2/2-Mark Patrol Routes/02-Player-Male.mp3"
+                },
+                {
+                  "character": "SURD",
+                  "dialogue": "Forty seconds per loop. There is a gap on the west side.",
+                  "audio_file_location": "dialogs/ZC-GetBike/ZC-Planet47-Creatures2/2-Mark Patrol Routes/03-surd.mp3"
+                },
+                {
+                  "character": "Player",
+                  "dialogue": "That is the way through.",
+                  "audio_file_location_female": "dialogs/ZC-GetBike/ZC-Planet47-Creatures2/2-Mark Patrol Routes/04-Player-Female.mp3",
+                  "audio_file_location_male": "dialogs/ZC-GetBike/ZC-Planet47-Creatures2/2-Mark Patrol Routes/04-Player-Male.mp3"
+                },
+                {
+                  "character": "SURD",
+                  "dialogue": "Correct.",
+                  "audio_file_location": "dialogs/ZC-GetBike/ZC-Planet47-Creatures2/2-Mark Patrol Routes/05-surd.mp3"
+                }
+              ]
+            },
+            {
+              "Order-Trigger": "3-Slip Past the Armored Creature",
+              "trigger": "Slip Past the Armored Creature",
+              "location$$trigger": "ZC-Planet47-Creatures2$$Slip Past the Armored Creature",
+              "dialogues": [
+                {
+                  "character": "SURD",
+                  "dialogue": "Wait for the creature to reach the east pile. Move through the west gap. On foot — the bike creates too much vibration.",
+                  "audio_file_location": "dialogs/ZC-GetBike/ZC-Planet47-Creatures2/3-Slip Past the Armored Creature/01-surd.mp3"
+                },
+                {
+                  "character": "Player",
+                  "dialogue": "On foot through armored creature territory. Perfect.",
+                  "audio_file_location_female": "dialogs/ZC-GetBike/ZC-Planet47-Creatures2/3-Slip Past the Armored Creature/02-Player-Female.mp3",
+                  "audio_file_location_male": "dialogs/ZC-GetBike/ZC-Planet47-Creatures2/3-Slip Past the Armored Creature/02-Player-Male.mp3"
+                },
+                {
+                  "character": "SURD",
+                  "dialogue": "I will alert you if it changes route.",
+                  "audio_file_location": "dialogs/ZC-GetBike/ZC-Planet47-Creatures2/3-Slip Past the Armored Creature/03-surd.mp3"
+                }
+              ]
+            },
+            {
+              "Order-Trigger": "4-Recover Signal Amplifier",
+              "trigger": "Recover Signal Amplifier",
+              "location$$trigger": "ZC-Planet47-Creatures2$$Recover Signal Amplifier",
+              "dialogues": [
+                {
+                  "character": "Player",
+                  "dialogue": "What is a signal amplifier doing out here?",
+                  "audio_file_location_female": "dialogs/ZC-GetBike/ZC-Planet47-Creatures2/4-Recover Signal Amplifier/01-Player-Female.mp3",
+                  "audio_file_location_male": "dialogs/ZC-GetBike/ZC-Planet47-Creatures2/4-Recover Signal Amplifier/01-Player-Male.mp3"
+                },
+                {
+                  "character": "SURD",
+                  "dialogue": "It is from one of the comms modules. Still functional.",
+                  "audio_file_location": "dialogs/ZC-GetBike/ZC-Planet47-Creatures2/4-Recover Signal Amplifier/02-surd.mp3"
+                },
+                {
+                  "character": "Player",
+                  "dialogue": "Enough to reach Orbital Command?",
+                  "audio_file_location_female": "dialogs/ZC-GetBike/ZC-Planet47-Creatures2/4-Recover Signal Amplifier/03-Player-Female.mp3",
+                  "audio_file_location_male": "dialogs/ZC-GetBike/ZC-Planet47-Creatures2/4-Recover Signal Amplifier/03-Player-Male.mp3"
+                },
+                {
+                  "character": "SURD",
+                  "dialogue": "Combined with what we have already found, possibly.",
+                  "audio_file_location": "dialogs/ZC-GetBike/ZC-Planet47-Creatures2/4-Recover Signal Amplifier/04-surd.mp3"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "location": "ZC-Planet47-Creatures3",
+          "triggers": [
+            {
+              "Order-Trigger": "1-Signal Attracts Creature",
+              "trigger": "Signal Attracts Creature",
+              "location$$trigger": "ZC-Planet47-Creatures3$$Signal Attracts Creature",
+              "dialogues": [
+                {
+                  "character": "SURD",
+                  "dialogue": "Large hostile approaching.",
+                  "audio_file_location": "dialogs/ZC-GetBike/ZC-Planet47-Creatures3/1-Signal Attracts Creature/01-surd.mp3"
+                },
+                {
+                  "character": "Player",
+                  "dialogue": "Of course the first good signal rings the dinner bell.",
+                  "audio_file_location_female": "dialogs/ZC-GetBike/ZC-Planet47-Creatures3/1-Signal Attracts Creature/02-Player-Female.mp3",
+                  "audio_file_location_male": "dialogs/ZC-GetBike/ZC-Planet47-Creatures3/1-Signal Attracts Creature/02-Player-Male.mp3"
+                },
+                {
+                  "character": "SURD",
+                  "dialogue": "Reminder. You are not dinner.",
+                  "audio_file_location": "dialogs/ZC-GetBike/ZC-Planet47-Creatures3/1-Signal Attracts Creature/03-surd.mp3"
+                },
+                {
+                  "character": "Player",
+                  "dialogue": "Tell that to the creature.",
+                  "audio_file_location_female": "dialogs/ZC-GetBike/ZC-Planet47-Creatures3/1-Signal Attracts Creature/04-Player-Female.mp3",
+                  "audio_file_location_male": "dialogs/ZC-GetBike/ZC-Planet47-Creatures3/1-Signal Attracts Creature/04-Player-Male.mp3"
+                }
+              ]
+            },
+            {
+              "Order-Trigger": "2-Hold the Relay",
+              "trigger": "Hold the Relay",
+              "location$$trigger": "ZC-Planet47-Creatures3$$Hold the Relay",
+              "dialogues": [
+                {
+                  "character": "SURD",
+                  "dialogue": "I need thirty seconds to save the transmission log. Keep it away from the relay.",
+                  "audio_file_location": "dialogs/ZC-GetBike/ZC-Planet47-Creatures3/2-Hold the Relay/01-surd.mp3"
+                },
+                {
+                  "character": "Player",
+                  "dialogue": "Thirty seconds.",
+                  "audio_file_location_female": "dialogs/ZC-GetBike/ZC-Planet47-Creatures3/2-Hold the Relay/02-Player-Female.mp3",
+                  "audio_file_location_male": "dialogs/ZC-GetBike/ZC-Planet47-Creatures3/2-Hold the Relay/02-Player-Male.mp3"
+                },
+                {
+                  "character": "SURD",
+                  "dialogue": "Do not let it destroy the relay. The data goes with it if it does.",
+                  "audio_file_location": "dialogs/ZC-GetBike/ZC-Planet47-Creatures3/2-Hold the Relay/03-surd.mp3"
+                }
+              ]
+            },
+            {
+              "Order-Trigger": "3-Transmission Log Saved",
+              "trigger": "Transmission Log Saved",
+              "location$$trigger": "ZC-Planet47-Creatures3$$Transmission Log Saved",
+              "dialogues": [
+                {
+                  "character": "SURD",
+                  "dialogue": "Transmission log saved. We can leave.",
+                  "audio_file_location": "dialogs/ZC-GetBike/ZC-Planet47-Creatures3/3-Transmission Log Saved/01-surd.mp3"
+                },
+                {
+                  "character": "Player",
+                  "dialogue": "Bike. Now.",
+                  "audio_file_location_female": "dialogs/ZC-GetBike/ZC-Planet47-Creatures3/3-Transmission Log Saved/02-Player-Female.mp3",
+                  "audio_file_location_male": "dialogs/ZC-GetBike/ZC-Planet47-Creatures3/3-Transmission Log Saved/02-Player-Male.mp3"
+                }
+              ]
+            },
+            {
+              "Order-Trigger": "4-Escape on Bike",
+              "trigger": "Escape on Bike",
+              "location$$trigger": "ZC-Planet47-Creatures3$$Escape on Bike",
+              "dialogues": [
+                {
+                  "character": "Player",
+                  "dialogue": "(while riding) Is that it?",
+                  "audio_file_location_female": "dialogs/ZC-GetBike/ZC-Planet47-Creatures3/4-Escape on Bike/01-Player-Female.mp3",
+                  "audio_file_location_male": "dialogs/ZC-GetBike/ZC-Planet47-Creatures3/4-Escape on Bike/01-Player-Male.mp3"
+                },
+                {
+                  "character": "SURD",
+                  "dialogue": "It stopped at the tree line. Territorial boundary.",
+                  "audio_file_location": "dialogs/ZC-GetBike/ZC-Planet47-Creatures3/4-Escape on Bike/02-surd.mp3"
+                },
+                {
+                  "character": "Player",
+                  "dialogue": "They have territories.",
+                  "audio_file_location_female": "dialogs/ZC-GetBike/ZC-Planet47-Creatures3/4-Escape on Bike/03-Player-Female.mp3",
+                  "audio_file_location_male": "dialogs/ZC-GetBike/ZC-Planet47-Creatures3/4-Escape on Bike/03-Player-Male.mp3"
+                },
+                {
+                  "character": "SURD",
+                  "dialogue": "Established behavior. We now know Signal Peak is inside that one's range.",
+                  "audio_file_location": "dialogs/ZC-GetBike/ZC-Planet47-Creatures3/4-Escape on Bike/04-surd.mp3"
+                },
+                {
+                  "character": "Player",
+                  "dialogue": "Good to know. Where are we going?",
+                  "audio_file_location_female": "dialogs/ZC-GetBike/ZC-Planet47-Creatures3/4-Escape on Bike/05-Player-Female.mp3",
+                  "audio_file_location_male": "dialogs/ZC-GetBike/ZC-Planet47-Creatures3/4-Escape on Bike/05-Player-Male.mp3"
+                },
+                {
+                  "character": "SURD",
+                  "dialogue": "Somewhere with less creature interest and more working Zegas infrastructure.",
+                  "audio_file_location": "dialogs/ZC-GetBike/ZC-Planet47-Creatures3/4-Escape on Bike/06-surd.mp3"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "location": "ZC-Weapons-Crafting",
+          "triggers": [
+            {
+              "Order-Trigger": "1-Creature Pressure Increases",
+              "trigger": "Creature Pressure Increases",
+              "location$$trigger": "ZC-Weapons-Crafting$$Creature Pressure Increases",
+              "dialogues": [
+                {
+                  "character": "Player",
+                  "dialogue": "I need something between me and those teeth.",
+                  "audio_file_location_female": "dialogs/ZC-GetBike/ZC-Weapons-Crafting/1-Creature Pressure Increases/01-Player-Female.mp3",
+                  "audio_file_location_male": "dialogs/ZC-GetBike/ZC-Weapons-Crafting/1-Creature Pressure Increases/01-Player-Male.mp3"
+                },
+                {
+                  "character": "SURD",
+                  "dialogue": "Crafting recommendation: emergency pulse cutter.",
+                  "audio_file_location": "dialogs/ZC-GetBike/ZC-Weapons-Crafting/1-Creature Pressure Increases/02-surd.mp3"
+                },
+                {
+                  "character": "Player",
+                  "dialogue": "Is it a weapon?",
+                  "audio_file_location_female": "dialogs/ZC-GetBike/ZC-Weapons-Crafting/1-Creature Pressure Increases/03-Player-Female.mp3",
+                  "audio_file_location_male": "dialogs/ZC-GetBike/ZC-Weapons-Crafting/1-Creature Pressure Increases/03-Player-Male.mp3"
+                },
+                {
+                  "character": "SURD",
+                  "dialogue": "Zegas classification: industrial tool.",
+                  "audio_file_location": "dialogs/ZC-GetBike/ZC-Weapons-Crafting/1-Creature Pressure Increases/04-surd.mp3"
+                },
+                {
+                  "character": "Player",
+                  "dialogue": "Does it stop creatures?",
+                  "audio_file_location_female": "dialogs/ZC-GetBike/ZC-Weapons-Crafting/1-Creature Pressure Increases/05-Player-Female.mp3",
+                  "audio_file_location_male": "dialogs/ZC-GetBike/ZC-Weapons-Crafting/1-Creature Pressure Increases/05-Player-Male.mp3"
+                },
+                {
+                  "character": "SURD",
+                  "dialogue": "Temporarily.",
+                  "audio_file_location": "dialogs/ZC-GetBike/ZC-Weapons-Crafting/1-Creature Pressure Increases/06-surd.mp3"
+                },
+                {
+                  "character": "Player",
+                  "dialogue": "Then it is a weapon today.",
+                  "audio_file_location_female": "dialogs/ZC-GetBike/ZC-Weapons-Crafting/1-Creature Pressure Increases/07-Player-Female.mp3",
+                  "audio_file_location_male": "dialogs/ZC-GetBike/ZC-Weapons-Crafting/1-Creature Pressure Increases/07-Player-Male.mp3"
+                }
+              ]
+            },
+            {
+              "Order-Trigger": "2-Repair Field Fabricator",
+              "trigger": "Repair Field Fabricator",
+              "location$$trigger": "ZC-Weapons-Crafting$$Repair Field Fabricator",
+              "dialogues": [
+                {
+                  "character": "SURD",
+                  "dialogue": "Fabricator is damaged but repairable. Insert energy crystals to restore power.",
+                  "audio_file_location": "dialogs/ZC-GetBike/ZC-Weapons-Crafting/2-Repair Field Fabricator/01-surd.mp3"
+                },
+                {
+                  "character": "Player",
+                  "dialogue": "Same crystals I just collected.",
+                  "audio_file_location_female": "dialogs/ZC-GetBike/ZC-Weapons-Crafting/2-Repair Field Fabricator/02-Player-Female.mp3",
+                  "audio_file_location_male": "dialogs/ZC-GetBike/ZC-Weapons-Crafting/2-Repair Field Fabricator/02-Player-Male.mp3"
+                },
+                {
+                  "character": "SURD",
+                  "dialogue": "Multi-use resource. You will be depending on them for most of your systems.",
+                  "audio_file_location": "dialogs/ZC-GetBike/ZC-Weapons-Crafting/2-Repair Field Fabricator/03-surd.mp3"
+                }
+              ]
+            },
+            {
+              "Order-Trigger": "3-Gather Weapon Materials",
+              "trigger": "Gather Weapon Materials",
+              "location$$trigger": "ZC-Weapons-Crafting$$Gather Weapon Materials",
+              "dialogues": [
+                {
+                  "character": "SURD",
+                  "dialogue": "You need alloy fragments, conduit minerals, and two stable energy crystals to fabricate the pulse cutter.",
+                  "audio_file_location": "dialogs/ZC-GetBike/ZC-Weapons-Crafting/3-Gather Weapon Materials/01-surd.mp3"
+                },
+                {
+                  "character": "Player",
+                  "dialogue": "I have the minerals from before. I need the rest.",
+                  "audio_file_location_female": "dialogs/ZC-GetBike/ZC-Weapons-Crafting/3-Gather Weapon Materials/02-Player-Female.mp3",
+                  "audio_file_location_male": "dialogs/ZC-GetBike/ZC-Weapons-Crafting/3-Gather Weapon Materials/02-Player-Male.mp3"
+                },
+                {
+                  "character": "SURD",
+                  "dialogue": "Alloy fragments are in the nearest cargo stack. Be fast.",
+                  "audio_file_location": "dialogs/ZC-GetBike/ZC-Weapons-Crafting/3-Gather Weapon Materials/03-surd.mp3"
+                }
+              ]
+            },
+            {
+              "Order-Trigger": "4-Craft Emergency Pulse Cutter",
+              "trigger": "Craft Emergency Pulse Cutter",
+              "location$$trigger": "ZC-Weapons-Crafting$$Craft Emergency Pulse Cutter",
+              "dialogues": [
+                {
+                  "character": "SURD",
+                  "dialogue": "Fabricating. Thirty seconds.",
+                  "audio_file_location": "dialogs/ZC-GetBike/ZC-Weapons-Crafting/4-Craft Emergency Pulse Cutter/01-surd.mp3"
+                },
+                {
+                  "character": "SURD",
+                  "dialogue": "Pulse cutter complete.",
+                  "audio_file_location": "dialogs/ZC-GetBike/ZC-Weapons-Crafting/4-Craft Emergency Pulse Cutter/02-surd.mp3"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "location": "ZC-Weapons-Unlock",
+          "triggers": [
+            {
+              "Order-Trigger": "1-Safety Unlock Granted",
+              "trigger": "Safety Unlock Granted",
+              "location$$trigger": "ZC-Weapons-Unlock$$Safety Unlock Granted",
+              "dialogues": [
+                {
+                  "character": "SURD",
+                  "dialogue": "Weapon system unlocked under emergency survival clause.",
+                  "audio_file_location": "dialogs/ZC-GetBike/ZC-Weapons-Unlock/1-Safety Unlock Granted/01-surd.mp3"
+                },
+                {
+                  "character": "Player",
+                  "dialogue": "You had that clause ready fast.",
+                  "audio_file_location_female": "dialogs/ZC-GetBike/ZC-Weapons-Unlock/1-Safety Unlock Granted/02-Player-Female.mp3",
+                  "audio_file_location_male": "dialogs/ZC-GetBike/ZC-Weapons-Unlock/1-Safety Unlock Granted/02-Player-Male.mp3"
+                },
+                {
+                  "character": "SURD",
+                  "dialogue": "You encountered carnivorous megafauna before breakfast.",
+                  "audio_file_location": "dialogs/ZC-GetBike/ZC-Weapons-Unlock/1-Safety Unlock Granted/03-surd.mp3"
+                },
+                {
+                  "character": "Player",
+                  "dialogue": "Fair.",
+                  "audio_file_location_female": "dialogs/ZC-GetBike/ZC-Weapons-Unlock/1-Safety Unlock Granted/04-Player-Female.mp3",
+                  "audio_file_location_male": "dialogs/ZC-GetBike/ZC-Weapons-Unlock/1-Safety Unlock Granted/04-Player-Male.mp3"
+                },
+                {
+                  "character": "SURD",
+                  "dialogue": "Reminder. This tool is for defense and route clearance.",
+                  "audio_file_location": "dialogs/ZC-GetBike/ZC-Weapons-Unlock/1-Safety Unlock Granted/05-surd.mp3"
+                },
+                {
+                  "character": "Player",
+                  "dialogue": "Noted. I am not hunting dinner here.",
+                  "audio_file_location_female": "dialogs/ZC-GetBike/ZC-Weapons-Unlock/1-Safety Unlock Granted/06-Player-Female.mp3",
+                  "audio_file_location_male": "dialogs/ZC-GetBike/ZC-Weapons-Unlock/1-Safety Unlock Granted/06-Player-Male.mp3"
+                }
+              ]
+            },
+            {
+              "Order-Trigger": "2-Weapon Tutorial",
+              "trigger": "Weapon Tutorial",
+              "location$$trigger": "ZC-Weapons-Unlock$$Weapon Tutorial",
+              "dialogues": [
+                {
+                  "character": "SURD",
+                  "dialogue": "Standard functions: aim, charge shot, stun pulse, and cooldown. Do not fire while cooling.",
+                  "audio_file_location": "dialogs/ZC-GetBike/ZC-Weapons-Unlock/2-Weapon Tutorial/01-surd.mp3"
+                },
+                {
+                  "character": "Player",
+                  "dialogue": "What is the cooldown period?",
+                  "audio_file_location_female": "dialogs/ZC-GetBike/ZC-Weapons-Unlock/2-Weapon Tutorial/02-Player-Female.mp3",
+                  "audio_file_location_male": "dialogs/ZC-GetBike/ZC-Weapons-Unlock/2-Weapon Tutorial/02-Player-Male.mp3"
+                },
+                {
+                  "character": "SURD",
+                  "dialogue": "Eight seconds at full charge. Four at half charge.",
+                  "audio_file_location": "dialogs/ZC-GetBike/ZC-Weapons-Unlock/2-Weapon Tutorial/03-surd.mp3"
+                },
+                {
+                  "character": "Player",
+                  "dialogue": "So aim properly.",
+                  "audio_file_location_female": "dialogs/ZC-GetBike/ZC-Weapons-Unlock/2-Weapon Tutorial/04-Player-Female.mp3",
+                  "audio_file_location_male": "dialogs/ZC-GetBike/ZC-Weapons-Unlock/2-Weapon Tutorial/04-Player-Male.mp3"
+                },
+                {
+                  "character": "SURD",
+                  "dialogue": "That would be ideal.",
+                  "audio_file_location": "dialogs/ZC-GetBike/ZC-Weapons-Unlock/2-Weapon Tutorial/05-surd.mp3"
+                }
+              ]
+            },
+            {
+              "Order-Trigger": "3-Test Fire on Debris",
+              "trigger": "Test Fire on Debris",
+              "location$$trigger": "ZC-Weapons-Unlock$$Test Fire on Debris",
+              "dialogues": [
+                {
+                  "character": "SURD",
+                  "dialogue": "Test fire on the damaged plating to the left.",
+                  "audio_file_location": "dialogs/ZC-GetBike/ZC-Weapons-Unlock/3-Test Fire on Debris/01-surd.mp3"
+                },
+                {
+                  "character": "SURD",
+                  "dialogue": "Charge level confirmed. Aim calibration complete.",
+                  "audio_file_location": "dialogs/ZC-GetBike/ZC-Weapons-Unlock/3-Test Fire on Debris/02-surd.mp3"
+                }
+              ]
+            },
+            {
+              "Order-Trigger": "4-First Creature Defense",
+              "trigger": "First Creature Defense",
+              "location$$trigger": "ZC-Weapons-Unlock$$First Creature Defense",
+              "dialogues": [
+                {
+                  "character": "SURD",
+                  "dialogue": "Small predator approaching. This is a good test.",
+                  "audio_file_location": "dialogs/ZC-GetBike/ZC-Weapons-Unlock/4-First Creature Defense/01-surd.mp3"
+                },
+                {
+                  "character": "Player",
+                  "dialogue": "A test. Right.",
+                  "audio_file_location_female": "dialogs/ZC-GetBike/ZC-Weapons-Unlock/4-First Creature Defense/02-Player-Female.mp3",
+                  "audio_file_location_male": "dialogs/ZC-GetBike/ZC-Weapons-Unlock/4-First Creature Defense/02-Player-Male.mp3"
+                },
+                {
+                  "character": "SURD",
+                  "dialogue": "Creature deterred. Moving away.",
+                  "audio_file_location": "dialogs/ZC-GetBike/ZC-Weapons-Unlock/4-First Creature Defense/03-surd.mp3"
+                },
+                {
+                  "character": "Player",
+                  "dialogue": "Okay. That works.",
+                  "audio_file_location_female": "dialogs/ZC-GetBike/ZC-Weapons-Unlock/4-First Creature Defense/04-Player-Female.mp3",
+                  "audio_file_location_male": "dialogs/ZC-GetBike/ZC-Weapons-Unlock/4-First Creature Defense/04-Player-Male.mp3"
+                },
+                {
+                  "character": "SURD",
+                  "dialogue": "Return to the Type-P search route.",
+                  "audio_file_location": "dialogs/ZC-GetBike/ZC-Weapons-Unlock/4-First Creature Defense/05-surd.mp3"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
       "location_group": "ZC-Opening",
       "locations": [
         {
