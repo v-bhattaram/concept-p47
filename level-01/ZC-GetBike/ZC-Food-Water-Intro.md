@@ -1,12 +1,18 @@
 # ZC-Food-Water-Intro
 
-## LocationGroup = FolderName
-## Location = File Name
-## Location Actions/toDos = Trigger (3 pound ### entries in file name)
+## ActionGroup
+- **ActionGroupName:** ZC-Food-Water-Intro
+- **ActionType:** StoryLine
+- **Level:** Level-01
+- **Location:** Crash Site — Container Zone Alpha
+- **MarkerVisibility:** Always On
+- **PreReqTrigger:** On ZC-What-Now Complete
+- **ActionGroupStatus:** Active
 
 ---
-[![Alt text](Bike_Location.jpg)]
-[![Alt text](Bike.jpg)]
+
+## ActionItems
+
 ### Trigger:Suit Hydration Warning
 - Trigger Type -> ForcedQuest
 - Order 1

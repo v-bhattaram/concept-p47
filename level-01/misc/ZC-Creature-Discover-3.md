@@ -1,10 +1,18 @@
 # ZC-Creature-Discover-3
 
-## LocationGroup = FolderName
-## Location = File Name
-## Location Actions/toDos = Trigger (3 pound ### entries in file name)
+## ActionGroup
+- **ActionGroupName:** ZC-Creature-Discover-3
+- **ActionType:** SideQuest
+- **Level:** Level-01
+- **Location:** Sector West — Nest Site
+- **MarkerVisibility:** On ZC-Planet47-Creatures3 Complete
+- **PreReqTrigger:** On ZC-Planet47-Creatures3 Complete
+- **ActionGroupStatus:** Active
 
 ---
+
+## ActionItems
+
 ### Trigger:Organic Heat Cluster Detected
 - Trigger Type -> SideQuest
 - Order 1

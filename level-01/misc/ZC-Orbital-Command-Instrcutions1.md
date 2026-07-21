@@ -1,10 +1,18 @@
 # ZC-Orbital-Command-Instrcutions1
 
-## LocationGroup = FolderName
-## Location = File Name
-## Location Actions/toDos = Trigger (3 pound ### entries in file name)
+## ActionGroup
+- **ActionGroupName:** ZC-Orbital-Command-Instrcutions1
+- **ActionType:** StoryLine
+- **Level:** Level-01
+- **Location:** LIRA-X9 Tower — Sector North
+- **MarkerVisibility:** Always On
+- **PreReqTrigger:** On ZC-Operational-Chain-LIRA-Instructions Complete
+- **ActionGroupStatus:** Active
 
 ---
+
+## ActionItems
+
 ### Trigger:Orbital Command Confirms Signal
 - Trigger Type -> ForcedQuest
 - Order 1

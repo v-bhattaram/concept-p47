@@ -1,10 +1,18 @@
 # ZC-Planet47-Creatures6
 
-## LocationGroup = FolderName
-## Location = File Name
-## Location Actions/toDos = Trigger (3 pound ### entries in file name)
+## ActionGroup
+- **ActionGroupName:** ZC-Planet47-Creatures6
+- **ActionType:** StoryLine
+- **Level:** Level-01
+- **Location:** LIRA-X9 Site — Sector North
+- **MarkerVisibility:** Always On
+- **PreReqTrigger:** On ZC-Operational-Chain-MIRA-Instructions Complete
+- **ActionGroupStatus:** Active
 
 ---
+
+## ActionItems
+
 ### Trigger:Apex Predator at LIRA Site
 - Trigger Type -> Story
 - Order 1

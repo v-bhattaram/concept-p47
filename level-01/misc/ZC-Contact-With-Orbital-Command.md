@@ -1,10 +1,18 @@
 # ZC-Contact-With-Orbital-Command
 
-## LocationGroup = FolderName
-## Location = File Name
-## Location Actions/toDos = Trigger (3 pound ### entries in file name)
+## ActionGroup
+- **ActionGroupName:** ZC-Contact-With-Orbital-Command
+- **ActionType:** StoryLine
+- **Level:** Level-01
+- **Location:** Signal Peak — Comms Relay Site
+- **MarkerVisibility:** Always On
+- **PreReqTrigger:** On ZC-Planet47-Creatures2 Complete
+- **ActionGroupStatus:** Active
 
 ---
+
+## ActionItems
+
 ### Trigger:Build Comms Relay
 - Trigger Type -> ForcedQuest
 - Order 1

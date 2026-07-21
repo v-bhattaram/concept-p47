@@ -1,10 +1,18 @@
 # ZC-Food-Water-2
 
-## LocationGroup = FolderName
-## Location = File Name
-## Location Actions/toDos = Trigger (3 pound ### entries in file name)
+## ActionGroup
+- **ActionGroupName:** ZC-Food-Water-2
+- **ActionType:** SideQuest
+- **Level:** Level-01
+- **Location:** Container Zone Beta — Near Creature Territory
+- **MarkerVisibility:** On ZC-Food-Water-1 Complete
+- **PreReqTrigger:** On ZC-Food-Water-1 Complete
+- **ActionGroupStatus:** Active
 
 ---
+
+## ActionItems
+
 ### Trigger:Water Cache Located
 - Trigger Type -> SideQuest
 - Order 1

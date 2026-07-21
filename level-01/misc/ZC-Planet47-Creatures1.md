@@ -1,10 +1,18 @@
 # ZC-Planet47-Creatures1
 
-## LocationGroup = FolderName
-## Location = File Name
-## Location Actions/toDos = Trigger (3 pound ### entries in file name)
+## ActionGroup
+- **ActionGroupName:** ZC-Planet47-Creatures1
+- **ActionType:** StoryLine
+- **Level:** Level-01
+- **Location:** Wreckage Path — Type-P Route
+- **MarkerVisibility:** Always On
+- **PreReqTrigger:** On ZC-Weapons-Unlock Complete
+- **ActionGroupStatus:** Active
 
 ---
+
+## ActionItems
+
 ### Trigger:Path Blocked
 - Trigger Type -> ForcedQuest
 - Order 1

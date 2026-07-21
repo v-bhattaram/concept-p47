@@ -1,13 +1,18 @@
 # ZC-Energy-Crystals-Intro
 
-## LocationGroup = FolderName
-## Location = File Name
-## Location Actions/toDos = Trigger (3 pound ### entries in file name)
+## ActionGroup
+- **ActionGroupName:** ZC-Energy-Crystals-Intro
+- **ActionType:** StoryLine
+- **Level:** Level-01
+- **Location:** Debris Field Alpha — Crystal Outcrop
+- **MarkerVisibility:** Always On
+- **PreReqTrigger:** On ZC-Minerals-Intro Complete
+- **ActionGroupStatus:** Active
 
 ---
 
-[![Alt text](Bike_Location.jpg)]
-[![Alt text](Bike.jpg)]
+## ActionItems
+
 ### Trigger:Unusual Energy Detected
 - Trigger Type -> ForcedQuest
 - Order 1

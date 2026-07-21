@@ -1,10 +1,18 @@
 # ZC-Map-Exit
 
-## LocationGroup = FolderName
-## Location = File Name
-## Location Actions/toDos = Trigger (3 pound ### entries in file name)
+## ActionGroup
+- **ActionGroupName:** ZC-Map-Exit
+- **ActionType:** StoryLine
+- **Level:** Level-01
+- **Location:** Transit Zone — Sector Northeast
+- **MarkerVisibility:** On ZC-Orbital-Command-Instrcutions1 Complete
+- **PreReqTrigger:** On ZC-Orbital-Command-Instrcutions1 Complete
+- **ActionGroupStatus:** Active
 
 ---
+
+## ActionItems
+
 ### Trigger:Reach the Exit Marker
 - Trigger Type -> ForcedQuest
 - Order 1

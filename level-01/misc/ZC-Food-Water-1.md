@@ -1,10 +1,18 @@
 # ZC-Food-Water-1
 
-## LocationGroup = FolderName
-## Location = File Name
-## Location Actions/toDos = Trigger (3 pound ### entries in file name)
+## ActionGroup
+- **ActionGroupName:** ZC-Food-Water-1
+- **ActionType:** SideQuest
+- **Level:** Level-01
+- **Location:** Container Zone Alpha — Debris Field
+- **MarkerVisibility:** On ZC-What-Now Complete
+- **PreReqTrigger:** On ZC-What-Now Complete
+- **ActionGroupStatus:** Active
 
 ---
+
+## ActionItems
+
 ### Trigger:SURD Pings Container Cluster
 - Trigger Type -> SideQuest
 - Order 1

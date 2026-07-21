@@ -1,10 +1,20 @@
 # ZC-Planet47
 
-## LocationGroup = FolderName
-## Location = File Name
-## Location Actions/toDos = Trigger (3 pound ### entries in file name)
+## ActionGroup
+- **ActionGroupName:** ZC-Planet47
+- **ActionType:** StoryLine
+- **Level:** Level-01
+- **Location:** Crash Site — Module Alpha Exterior
+- **MarkerVisibility:** Always On
+- **PreReqTrigger:** On ZC-Opening Complete
+- **ActionGroupStatus:** Active
 
+[![Alt text](WakeUp_Location.jpg)]
+[![Alt text](WakeUp.jpg)]
 ---
+
+## ActionItems
+
 ### Trigger:Find Comms
 - Trigger Type -> ForcedQuest
 - Order 1

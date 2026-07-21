@@ -1,10 +1,18 @@
 # ZC-Operational-Chain-Energy-Tower-Instructions
 
-## LocationGroup = FolderName
-## Location = File Name
-## Location Actions/toDos = Trigger (3 pound ### entries in file name)
+## ActionGroup
+- **ActionGroupName:** ZC-Operational-Chain-Energy-Tower-Instructions
+- **ActionType:** StoryLine
+- **Level:** Level-01
+- **Location:** Energy Tower Site — Sector East
+- **MarkerVisibility:** Always On
+- **PreReqTrigger:** On ZC-Operational-Chain-Instructions Complete
+- **ActionGroupStatus:** Active
 
 ---
+
+## ActionItems
+
 ### Trigger:Locate the Energy Tower
 - Trigger Type -> ForcedQuest
 - Order 1

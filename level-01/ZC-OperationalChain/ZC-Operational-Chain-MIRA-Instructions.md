@@ -1,10 +1,18 @@
 # ZC-Operational-Chain-MIRA-Instructions
 
-## LocationGroup = FolderName
-## Location = File Name
-## Location Actions/toDos = Trigger (3 pound ### entries in file name)
+## ActionGroup
+- **ActionGroupName:** ZC-Operational-Chain-MIRA-Instructions
+- **ActionType:** StoryLine
+- **Level:** Level-01
+- **Location:** MIRA Station — Sector Central-West
+- **MarkerVisibility:** Always On
+- **PreReqTrigger:** On ZC-Planet47-Creatures5 Complete
+- **ActionGroupStatus:** Active
 
 ---
+
+## ActionItems
+
 ### Trigger:Activate MIRA Terminal
 - Trigger Type -> ForcedQuest
 - Order 1

@@ -1,10 +1,18 @@
 # ZC-Operational-Chain-MATREX-Instructions
 
-## LocationGroup = FolderName
-## Location = File Name
-## Location Actions/toDos = Trigger (3 pound ### entries in file name)
+## ActionGroup
+- **ActionGroupName:** ZC-Operational-Chain-MATREX-Instructions
+- **ActionType:** StoryLine
+- **Level:** Level-01
+- **Location:** MATREX Station — Sector Central
+- **MarkerVisibility:** Always On
+- **PreReqTrigger:** On ZC-Planet47-Creatures4 Complete
+- **ActionGroupStatus:** Active
 
 ---
+
+## ActionItems
+
 ### Trigger:Ride to MATREX
 - Trigger Type -> ForcedQuest
 - Order 1

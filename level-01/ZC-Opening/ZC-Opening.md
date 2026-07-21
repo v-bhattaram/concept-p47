@@ -4,11 +4,19 @@
 [![Alt text](WakeUp.jpg)]
 
 
-## LocationGroup = FolderName
-## Location = File Name
-## Location Actions/toDos = Trigger (3 pound ### entries in file name)
+## ActionGroup
+- **ActionGroupName:** ZC-Opening
+- **ActionType:** StoryLine
+- **Level:** Level-01
+- **Location:** Crash Site — Module Alpha
+- **MarkerVisibility:** Always On
+- **PreReqTrigger:** On Map Load
+- **ActionGroupStatus:** Active
 
 ---
+
+## ActionItems
+
 ### Trigger:Title Sequence
 - Trigger Type -> Cutscene
 - Order 1
@@ -43,14 +51,14 @@
 ### Trigger:SURD SOS
 - Trigger Type -> Cutscene
 - Order 3
-- **Cinematic:** Yes — kiosk screen, SURD audio over static
+- **Cinematic:** Yes — kiosk screen, SUR-RD audio over static
 - **BGMusic:** Fading alarms, low hum, static bursts
 - **Dialogs:**
-  - SURD: Critical S.O.S. This is SURD. Orbital Command, can you read me?
+  - SURD: Critical S.O.S. This is SUR-RD. Orbital Command, can you read me?
   - (Static. No reply.)
-  - SURD: Critical S.O.S. This is SURD. Orbital Command, respond.
+  - SURD: Critical S.O.S. This is SUR-RD. Orbital Command, respond.
   - (Static weakens.)
-  - SURD: Critical S.O.S. This is SURD. Armada down. Any station, respond.
+  - SURD: Critical S.O.S. This is SUR_RD. Armada down. Any station, respond.
   - (Static fades.)
   - SURD: Critical S.O.S. Zegas Armada 47. Does anyone copy.
   - (Silence.)

@@ -1,10 +1,18 @@
 # ZC-Weapons-Crafting
 
-## LocationGroup = FolderName
-## Location = File Name
-## Location Actions/toDos = Trigger (3 pound ### entries in file name)
+## ActionGroup
+- **ActionGroupName:** ZC-Weapons-Crafting
+- **ActionType:** StoryLine
+- **Level:** Level-01
+- **Location:** Debris Field Alpha — Field Fabricator
+- **MarkerVisibility:** Always On
+- **PreReqTrigger:** On ZC-Energy-Crystals-Intro Complete
+- **ActionGroupStatus:** Active
 
 ---
+
+## ActionItems
+
 ### Trigger:Creature Pressure Increases
 - Trigger Type -> ForcedQuest
 - Order 1

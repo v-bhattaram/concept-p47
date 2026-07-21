@@ -1,10 +1,18 @@
 # ZC-Operational-Chain-LIRA-Instructions
 
-## LocationGroup = FolderName
-## Location = File Name
-## Location Actions/toDos = Trigger (3 pound ### entries in file name)
+## ActionGroup
+- **ActionGroupName:** ZC-Operational-Chain-LIRA-Instructions
+- **ActionType:** StoryLine
+- **Level:** Level-01
+- **Location:** LIRA-X9 Tower — Sector North
+- **MarkerVisibility:** Always On
+- **PreReqTrigger:** On ZC-Planet47-Creatures6 Complete
+- **ActionGroupStatus:** Active
 
 ---
+
+## ActionItems
+
 ### Trigger:Reach LIRA-X9 Tower
 - Trigger Type -> ForcedQuest
 - Order 1

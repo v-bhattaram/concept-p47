@@ -1,10 +1,18 @@
 # ZC-Geography-Water-Discovery-2
 
-## LocationGroup = FolderName
-## Location = File Name
-## Location Actions/toDos = Trigger (3 pound ### entries in file name)
+## ActionGroup
+- **ActionGroupName:** ZC-Geography-Water-Discovery-2
+- **ActionType:** SideQuest
+- **Level:** Level-01
+- **Location:** Sector South — River Crossing
+- **MarkerVisibility:** On ZC-GetDrone Complete
+- **PreReqTrigger:** On ZC-GetDrone Complete
+- **ActionGroupStatus:** Active
 
 ---
+
+## ActionItems
+
 ### Trigger:Drone Detects Water Source
 - Trigger Type -> SideQuest
 - Order 1

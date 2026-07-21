@@ -1,10 +1,18 @@
 # ZC-Planet47-Creatures-Intro
 
-## LocationGroup = FolderName
-## Location = File Name
-## Location Actions/toDos = Trigger (3 pound ### entries in file name)
+## ActionGroup
+- **ActionGroupName:** ZC-Planet47-Creatures-Intro
+- **ActionType:** StoryLine
+- **Level:** Level-01
+- **Location:** Debris Field Alpha
+- **MarkerVisibility:** Always On
+- **PreReqTrigger:** On ZC-Planet47 Complete
+- **ActionGroupStatus:** Active
 
 ---
+
+## ActionItems
+
 ### Trigger:Sounds in the Smoke
 - Trigger Type -> ForcedQuest
 - Order 1

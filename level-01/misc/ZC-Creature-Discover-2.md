@@ -1,10 +1,18 @@
 # ZC-Creature-Discover-2
 
-## LocationGroup = FolderName
-## Location = File Name
-## Location Actions/toDos = Trigger (3 pound ### entries in file name)
+## ActionGroup
+- **ActionGroupName:** ZC-Creature-Discover-2
+- **ActionType:** SideQuest
+- **Level:** Level-01
+- **Location:** Wreckage Path — Armored Creature Zone
+- **MarkerVisibility:** On ZC-Planet47-Creatures1 Complete
+- **PreReqTrigger:** On ZC-Planet47-Creatures1 Complete
+- **ActionGroupStatus:** Active
 
 ---
+
+## ActionItems
+
 ### Trigger:Track Without Engaging
 - Trigger Type -> SideQuest
 - Order 1
