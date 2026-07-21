@@ -2,6 +2,281 @@
   "level": "level-01",
   "location_groups": [
     {
+      "location_group": "ZC-Opening",
+      "locations": [
+        {
+          "location": "ZC-Opening",
+          "triggers": [
+            {
+              "Order-Trigger": "3-SURD SOS",
+              "trigger": "SURD SOS",
+              "location$$trigger": "ZC-Opening$$SURD SOS",
+              "dialogues": [
+                {
+                  "character": "SURD",
+                  "dialogue": "Critical S.O.S. This is SUR-RD. Orbital Command, can you read me?",
+                  "audio_file_location": "dialogs/ZC-Opening/ZC-Opening/3-SURD SOS/01-surd.mp3"
+                },
+                {
+                  "character": "SURD",
+                  "dialogue": "Critical S.O.S. This is SUR-RD. Orbital Command, respond.",
+                  "audio_file_location": "dialogs/ZC-Opening/ZC-Opening/3-SURD SOS/02-surd.mp3"
+                },
+                {
+                  "character": "SURD",
+                  "dialogue": "Critical S.O.S. This is SUR_RD. Armada down. Any station, respond.",
+                  "audio_file_location": "dialogs/ZC-Opening/ZC-Opening/3-SURD SOS/03-surd.mp3"
+                },
+                {
+                  "character": "SURD",
+                  "dialogue": "Critical S.O.S. Zegas Armada 47. Does anyone copy.",
+                  "audio_file_location": "dialogs/ZC-Opening/ZC-Opening/3-SURD SOS/04-surd.mp3"
+                },
+                {
+                  "character": "SURD",
+                  "dialogue": "...S.O.S.",
+                  "audio_file_location": "dialogs/ZC-Opening/ZC-Opening/3-SURD SOS/05-surd.mp3"
+                }
+              ]
+            },
+            {
+              "Order-Trigger": "5-First Look",
+              "trigger": "First Look",
+              "location$$trigger": "ZC-Opening$$First Look",
+              "dialogues": [
+                {
+                  "character": "Player",
+                  "dialogue": "Where is everyone?",
+                  "audio_file_location_female": "dialogs/ZC-Opening/ZC-Opening/5-First Look/01-Player-Female.mp3",
+                  "audio_file_location_male": "dialogs/ZC-Opening/ZC-Opening/5-First Look/01-Player-Male.mp3"
+                },
+                {
+                  "character": "Player",
+                  "dialogue": "This was an armada. There should be signals, bodies, something.",
+                  "audio_file_location_female": "dialogs/ZC-Opening/ZC-Opening/5-First Look/02-Player-Female.mp3",
+                  "audio_file_location_male": "dialogs/ZC-Opening/ZC-Opening/5-First Look/02-Player-Male.mp3"
+                },
+                {
+                  "character": "Player",
+                  "dialogue": "I need comms. If anyone survived, they will try to reach Orbital Command.",
+                  "audio_file_location_female": "dialogs/ZC-Opening/ZC-Opening/5-First Look/03-Player-Female.mp3",
+                  "audio_file_location_male": "dialogs/ZC-Opening/ZC-Opening/5-First Look/03-Player-Male.mp3"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "location": "ZC-Planet47",
+          "triggers": [
+            {
+              "Order-Trigger": "1-Find Comms",
+              "trigger": "Find Comms",
+              "location$$trigger": "ZC-Planet47$$Find Comms",
+              "dialogues": [
+                {
+                  "character": "Player",
+                  "dialogue": "None of my comms are working. I need to find another unit.",
+                  "audio_file_location_female": "dialogs/ZC-Opening/ZC-Planet47/1-Find Comms/01-Player-Female.mp3",
+                  "audio_file_location_male": "dialogs/ZC-Opening/ZC-Planet47/1-Find Comms/01-Player-Male.mp3"
+                },
+                {
+                  "character": "Player",
+                  "dialogue": "Let me check the crashed pods.",
+                  "audio_file_location_female": "dialogs/ZC-Opening/ZC-Planet47/1-Find Comms/02-Player-Female.mp3",
+                  "audio_file_location_male": "dialogs/ZC-Opening/ZC-Planet47/1-Find Comms/02-Player-Male.mp3"
+                },
+                {
+                  "character": "Player",
+                  "dialogue": "If Orbital Command is listening, I need a transmitter strong enough to punch through this atmosphere.",
+                  "audio_file_location_female": "dialogs/ZC-Opening/ZC-Planet47/1-Find Comms/03-Player-Female.mp3",
+                  "audio_file_location_male": "dialogs/ZC-Opening/ZC-Planet47/1-Find Comms/03-Player-Male.mp3"
+                }
+              ]
+            },
+            {
+              "Order-Trigger": "2-Suit Up",
+              "trigger": "Suit Up",
+              "location$$trigger": "ZC-Planet47$$Suit Up",
+              "dialogues": [
+                {
+                  "character": "Player",
+                  "dialogue": "The suit is damaged. I need to find the rest of it before the environment kills me.",
+                  "audio_file_location_female": "dialogs/ZC-Opening/ZC-Planet47/2-Suit Up/01-Player-Female.mp3",
+                  "audio_file_location_male": "dialogs/ZC-Opening/ZC-Planet47/2-Suit Up/01-Player-Male.mp3"
+                }
+              ]
+            },
+            {
+              "Order-Trigger": "3-Scale of the Crash",
+              "trigger": "Scale of the Crash",
+              "location$$trigger": "ZC-Planet47$$Scale of the Crash",
+              "dialogues": [
+                {
+                  "character": "Player",
+                  "dialogue": "The wreckage goes beyond the ridge.",
+                  "audio_file_location_female": "dialogs/ZC-Opening/ZC-Planet47/3-Scale of the Crash/01-Player-Female.mp3",
+                  "audio_file_location_male": "dialogs/ZC-Opening/ZC-Planet47/3-Scale of the Crash/01-Player-Male.mp3"
+                },
+                {
+                  "character": "Player",
+                  "dialogue": "This is too much ground to cover on foot.",
+                  "audio_file_location_female": "dialogs/ZC-Opening/ZC-Planet47/3-Scale of the Crash/02-Player-Female.mp3",
+                  "audio_file_location_male": "dialogs/ZC-Opening/ZC-Planet47/3-Scale of the Crash/02-Player-Male.mp3"
+                },
+                {
+                  "character": "Player",
+                  "dialogue": "I quickly need to find Food, water, comms, survivors. One thing at a time.",
+                  "audio_file_location_female": "dialogs/ZC-Opening/ZC-Planet47/3-Scale of the Crash/03-Player-Female.mp3",
+                  "audio_file_location_male": "dialogs/ZC-Opening/ZC-Planet47/3-Scale of the Crash/03-Player-Male.mp3"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "location": "ZC-Planet47-Creatures-Intro",
+          "triggers": [
+            {
+              "Order-Trigger": "1-Sounds in the Smoke",
+              "trigger": "Sounds in the Smoke",
+              "location$$trigger": "ZC-Planet47-Creatures-Intro$$Sounds in the Smoke",
+              "dialogues": [
+                {
+                  "character": "Player",
+                  "dialogue": "(quiet) What is that sound?",
+                  "audio_file_location_female": "dialogs/ZC-Opening/ZC-Planet47-Creatures-Intro/1-Sounds in the Smoke/01-Player-Female.mp3",
+                  "audio_file_location_male": "dialogs/ZC-Opening/ZC-Planet47-Creatures-Intro/1-Sounds in the Smoke/01-Player-Male.mp3"
+                }
+              ]
+            },
+            {
+              "Order-Trigger": "2-What Was That",
+              "trigger": "What Was That",
+              "location$$trigger": "ZC-Planet47-Creatures-Intro$$What Was That",
+              "dialogues": [
+                {
+                  "character": "Player",
+                  "dialogue": "What the hell are these creatures?",
+                  "audio_file_location_female": "dialogs/ZC-Opening/ZC-Planet47-Creatures-Intro/2-What Was That/01-Player-Female.mp3",
+                  "audio_file_location_male": "dialogs/ZC-Opening/ZC-Planet47-Creatures-Intro/2-What Was That/01-Player-Male.mp3"
+                },
+                {
+                  "character": "Player",
+                  "dialogue": "Zegas said this planet was uninhabited.",
+                  "audio_file_location_female": "dialogs/ZC-Opening/ZC-Planet47-Creatures-Intro/2-What Was That/02-Player-Female.mp3",
+                  "audio_file_location_male": "dialogs/ZC-Opening/ZC-Planet47-Creatures-Intro/2-What Was That/02-Player-Male.mp3"
+                },
+                {
+                  "character": "Player",
+                  "dialogue": "Better hide and find comms soon.",
+                  "audio_file_location_female": "dialogs/ZC-Opening/ZC-Planet47-Creatures-Intro/2-What Was That/03-Player-Female.mp3",
+                  "audio_file_location_male": "dialogs/ZC-Opening/ZC-Planet47-Creatures-Intro/2-What Was That/03-Player-Male.mp3"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "location": "ZC-What-Now",
+          "triggers": [
+            {
+              "Order-Trigger": "1-No Survivors Found",
+              "trigger": "No Survivors Found",
+              "location$$trigger": "ZC-What-Now$$No Survivors Found",
+              "dialogues": [
+                {
+                  "character": "Player",
+                  "dialogue": "I need food and water. I cannot find working comms anywhere.",
+                  "audio_file_location_female": "dialogs/ZC-Opening/ZC-What-Now/1-No Survivors Found/01-Player-Female.mp3",
+                  "audio_file_location_male": "dialogs/ZC-Opening/ZC-What-Now/1-No Survivors Found/01-Player-Male.mp3"
+                },
+                {
+                  "character": "Player",
+                  "dialogue": "No hunting. No unknown water. Zegas survival stock only.",
+                  "audio_file_location_female": "dialogs/ZC-Opening/ZC-What-Now/1-No Survivors Found/02-Player-Female.mp3",
+                  "audio_file_location_male": "dialogs/ZC-Opening/ZC-What-Now/1-No Survivors Found/02-Player-Male.mp3"
+                }
+              ]
+            },
+            {
+              "Order-Trigger": "2-SURD Terminal Found",
+              "trigger": "SURD Terminal Found",
+              "location$$trigger": "ZC-What-Now$$SURD Terminal Found",
+              "dialogues": [
+                {
+                  "character": "SURD",
+                  "dialogue": "Who is this? Identify yourself.",
+                  "audio_file_location": "dialogs/ZC-Opening/ZC-What-Now/2-SURD Terminal Found/01-surd.mp3"
+                },
+                {
+                  "character": "Player",
+                  "dialogue": "I am the player. We crashed. I cannot find comms. What is the status of the survivors?",
+                  "audio_file_location_female": "dialogs/ZC-Opening/ZC-What-Now/2-SURD Terminal Found/02-Player-Female.mp3",
+                  "audio_file_location_male": "dialogs/ZC-Opening/ZC-What-Now/2-SURD Terminal Found/02-Player-Male.mp3"
+                },
+                {
+                  "character": "SURD",
+                  "dialogue": "Crash event confirmed. I lost contact with life support systems. I do not have survivor data.",
+                  "audio_file_location": "dialogs/ZC-Opening/ZC-What-Now/2-SURD Terminal Found/03-surd.mp3"
+                },
+                {
+                  "character": "Player",
+                  "dialogue": "I have not found anyone. Not even bodies.",
+                  "audio_file_location_female": "dialogs/ZC-Opening/ZC-What-Now/2-SURD Terminal Found/04-Player-Female.mp3",
+                  "audio_file_location_male": "dialogs/ZC-Opening/ZC-What-Now/2-SURD Terminal Found/04-Player-Male.mp3"
+                },
+                {
+                  "character": "SURD",
+                  "dialogue": "Unknown variable. Do not conclude total loss without data.",
+                  "audio_file_location": "dialogs/ZC-Opening/ZC-What-Now/2-SURD Terminal Found/05-surd.mp3"
+                },
+                {
+                  "character": "SURD",
+                  "dialogue": "I cannot establish comms with Orbital Command from this terminal.",
+                  "audio_file_location": "dialogs/ZC-Opening/ZC-What-Now/2-SURD Terminal Found/06-surd.mp3"
+                }
+              ]
+            },
+            {
+              "Order-Trigger": "3-Find Type-P Terminal",
+              "trigger": "Find Type-P Terminal",
+              "location$$trigger": "ZC-What-Now$$Find Type-P Terminal",
+              "dialogues": [
+                {
+                  "character": "SURD",
+                  "dialogue": "Find a Type-P Terminal. It can hold my active node and allow portable transfer.",
+                  "audio_file_location": "dialogs/ZC-Opening/ZC-What-Now/3-Find Type-P Terminal/01-surd.mp3"
+                },
+                {
+                  "character": "Player",
+                  "dialogue": "Where?",
+                  "audio_file_location_female": "dialogs/ZC-Opening/ZC-What-Now/3-Find Type-P Terminal/02-Player-Female.mp3",
+                  "audio_file_location_male": "dialogs/ZC-Opening/ZC-What-Now/3-Find Type-P Terminal/02-Player-Male.mp3"
+                },
+                {
+                  "character": "SURD",
+                  "dialogue": "Three possible locations within the crash zone. I am transmitting coordinates.",
+                  "audio_file_location": "dialogs/ZC-Opening/ZC-What-Now/3-Find Type-P Terminal/03-surd.mp3"
+                },
+                {
+                  "character": "Player",
+                  "dialogue": "And if none of them are intact?",
+                  "audio_file_location_female": "dialogs/ZC-Opening/ZC-What-Now/3-Find Type-P Terminal/04-Player-Female.mp3",
+                  "audio_file_location_male": "dialogs/ZC-Opening/ZC-What-Now/3-Find Type-P Terminal/04-Player-Male.mp3"
+                },
+                {
+                  "character": "SURD",
+                  "dialogue": "Then keep looking. The alternative is worse.",
+                  "audio_file_location": "dialogs/ZC-Opening/ZC-What-Now/3-Find Type-P Terminal/05-surd.mp3"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
       "location_group": "ZC-GetBike",
       "locations": [
         {
@@ -977,273 +1252,139 @@
       ]
     },
     {
-      "location_group": "ZC-Opening",
+      "location_group": "ZC-SURD-Goes-Mobile",
       "locations": [
         {
-          "location": "ZC-Opening",
+          "location": "ZC-GetDrone",
           "triggers": [
             {
-              "Order-Trigger": "3-SURD SOS",
-              "trigger": "SURD SOS",
-              "location$$trigger": "ZC-Opening$$SURD SOS",
+              "Order-Trigger": "1-Find the Type-P Terminal",
+              "trigger": "Find the Type-P Terminal",
+              "location$$trigger": "ZC-GetDrone$$Find the Type-P Terminal",
               "dialogues": [
                 {
                   "character": "SURD",
-                  "dialogue": "Critical S.O.S. This is SUR-RD. Orbital Command, can you read me?",
-                  "audio_file_location": "dialogs/ZC-Opening/ZC-Opening/3-SURD SOS/01-surd.mp3"
+                  "dialogue": "Three possible Type-P locations are marked. Search them in order. The bike will cut the travel time significantly.",
+                  "audio_file_location": "dialogs/ZC-SURD-Goes-Mobile/ZC-GetDrone/1-Find the Type-P Terminal/01-surd.mp3"
+                },
+                {
+                  "character": "Player",
+                  "dialogue": "Finally.",
+                  "audio_file_location_female": "dialogs/ZC-SURD-Goes-Mobile/ZC-GetDrone/1-Find the Type-P Terminal/02-Player-Female.mp3",
+                  "audio_file_location_male": "dialogs/ZC-SURD-Goes-Mobile/ZC-GetDrone/1-Find the Type-P Terminal/02-Player-Male.mp3"
                 },
                 {
                   "character": "SURD",
-                  "dialogue": "Critical S.O.S. This is SUR-RD. Orbital Command, respond.",
-                  "audio_file_location": "dialogs/ZC-Opening/ZC-Opening/3-SURD SOS/02-surd.mp3"
-                },
-                {
-                  "character": "SURD",
-                  "dialogue": "Critical S.O.S. This is SUR_RD. Armada down. Any station, respond.",
-                  "audio_file_location": "dialogs/ZC-Opening/ZC-Opening/3-SURD SOS/03-surd.mp3"
-                },
-                {
-                  "character": "SURD",
-                  "dialogue": "Critical S.O.S. Zegas Armada 47. Does anyone copy.",
-                  "audio_file_location": "dialogs/ZC-Opening/ZC-Opening/3-SURD SOS/04-surd.mp3"
-                },
-                {
-                  "character": "SURD",
-                  "dialogue": "...S.O.S.",
-                  "audio_file_location": "dialogs/ZC-Opening/ZC-Opening/3-SURD SOS/05-surd.mp3"
+                  "dialogue": "First location: the partially buried command module, northeast sector.",
+                  "audio_file_location": "dialogs/ZC-SURD-Goes-Mobile/ZC-GetDrone/1-Find the Type-P Terminal/03-surd.mp3"
                 }
               ]
             },
             {
-              "Order-Trigger": "5-First Look",
-              "trigger": "First Look",
-              "location$$trigger": "ZC-Opening$$First Look",
+              "Order-Trigger": "2-Extract the SURD Node",
+              "trigger": "Extract the SURD Node",
+              "location$$trigger": "ZC-GetDrone$$Extract the SURD Node",
               "dialogues": [
                 {
-                  "character": "Player",
-                  "dialogue": "Where is everyone?",
-                  "audio_file_location_female": "dialogs/ZC-Opening/ZC-Opening/5-First Look/01-Player-Female.mp3",
-                  "audio_file_location_male": "dialogs/ZC-Opening/ZC-Opening/5-First Look/01-Player-Male.mp3"
+                  "character": "SURD",
+                  "dialogue": "Type-P connection established. Transfer possible.",
+                  "audio_file_location": "dialogs/ZC-SURD-Goes-Mobile/ZC-GetDrone/2-Extract the SURD Node/01-surd.mp3"
                 },
                 {
                   "character": "Player",
-                  "dialogue": "This was an armada. There should be signals, bodies, something.",
-                  "audio_file_location_female": "dialogs/ZC-Opening/ZC-Opening/5-First Look/02-Player-Female.mp3",
-                  "audio_file_location_male": "dialogs/ZC-Opening/ZC-Opening/5-First Look/02-Player-Male.mp3"
+                  "dialogue": "So you are in this node now?",
+                  "audio_file_location_female": "dialogs/ZC-SURD-Goes-Mobile/ZC-GetDrone/2-Extract the SURD Node/02-Player-Female.mp3",
+                  "audio_file_location_male": "dialogs/ZC-SURD-Goes-Mobile/ZC-GetDrone/2-Extract the SURD Node/02-Player-Male.mp3"
+                },
+                {
+                  "character": "SURD",
+                  "dialogue": "Correct. I am portable but immobile.",
+                  "audio_file_location": "dialogs/ZC-SURD-Goes-Mobile/ZC-GetDrone/2-Extract the SURD Node/03-surd.mp3"
                 },
                 {
                   "character": "Player",
-                  "dialogue": "I need comms. If anyone survived, they will try to reach Orbital Command.",
-                  "audio_file_location_female": "dialogs/ZC-Opening/ZC-Opening/5-First Look/03-Player-Female.mp3",
-                  "audio_file_location_male": "dialogs/ZC-Opening/ZC-Opening/5-First Look/03-Player-Male.mp3"
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "location": "ZC-Planet47",
-          "triggers": [
-            {
-              "Order-Trigger": "1-Find Comms",
-              "trigger": "Find Comms",
-              "location$$trigger": "ZC-Planet47$$Find Comms",
-              "dialogues": [
+                  "dialogue": "That sounds inconvenient.",
+                  "audio_file_location_female": "dialogs/ZC-SURD-Goes-Mobile/ZC-GetDrone/2-Extract the SURD Node/04-Player-Female.mp3",
+                  "audio_file_location_male": "dialogs/ZC-SURD-Goes-Mobile/ZC-GetDrone/2-Extract the SURD Node/04-Player-Male.mp3"
+                },
                 {
-                  "character": "Player",
-                  "dialogue": "None of my comms are working. I need to find another unit.",
-                  "audio_file_location_female": "dialogs/ZC-Opening/ZC-Planet47/1-Find Comms/01-Player-Female.mp3",
-                  "audio_file_location_male": "dialogs/ZC-Opening/ZC-Planet47/1-Find Comms/01-Player-Male.mp3"
+                  "character": "SURD",
+                  "dialogue": "Find a compatible drone body.",
+                  "audio_file_location": "dialogs/ZC-SURD-Goes-Mobile/ZC-GetDrone/2-Extract the SURD Node/05-surd.mp3"
                 },
                 {
                   "character": "Player",
-                  "dialogue": "Let me check the crashed pods.",
-                  "audio_file_location_female": "dialogs/ZC-Opening/ZC-Planet47/1-Find Comms/02-Player-Female.mp3",
-                  "audio_file_location_male": "dialogs/ZC-Opening/ZC-Planet47/1-Find Comms/02-Player-Male.mp3"
+                  "dialogue": "Of course you need a body.",
+                  "audio_file_location_female": "dialogs/ZC-SURD-Goes-Mobile/ZC-GetDrone/2-Extract the SURD Node/06-Player-Female.mp3",
+                  "audio_file_location_male": "dialogs/ZC-SURD-Goes-Mobile/ZC-GetDrone/2-Extract the SURD Node/06-Player-Male.mp3"
+                },
+                {
+                  "character": "SURD",
+                  "dialogue": "A small recon drone will be sufficient. Scout, communicate, shoot, and guide.",
+                  "audio_file_location": "dialogs/ZC-SURD-Goes-Mobile/ZC-GetDrone/2-Extract the SURD Node/07-surd.mp3"
                 },
                 {
                   "character": "Player",
-                  "dialogue": "If Orbital Command is listening, I need a transmitter strong enough to punch through this atmosphere.",
-                  "audio_file_location_female": "dialogs/ZC-Opening/ZC-Planet47/1-Find Comms/03-Player-Female.mp3",
-                  "audio_file_location_male": "dialogs/ZC-Opening/ZC-Planet47/1-Find Comms/03-Player-Male.mp3"
+                  "dialogue": "That is more than sufficient.",
+                  "audio_file_location_female": "dialogs/ZC-SURD-Goes-Mobile/ZC-GetDrone/2-Extract the SURD Node/08-Player-Female.mp3",
+                  "audio_file_location_male": "dialogs/ZC-SURD-Goes-Mobile/ZC-GetDrone/2-Extract the SURD Node/08-Player-Male.mp3"
                 }
               ]
             },
             {
-              "Order-Trigger": "2-Suit Up",
-              "trigger": "Suit Up",
-              "location$$trigger": "ZC-Planet47$$Suit Up",
+              "Order-Trigger": "3-Locate and Repair the Recon Drone",
+              "trigger": "Locate and Repair the Recon Drone",
+              "location$$trigger": "ZC-GetDrone$$Locate and Repair the Recon Drone",
               "dialogues": [
                 {
+                  "character": "SURD",
+                  "dialogue": "(from suit node, muffled) Compatible drone chassis is approximately forty meters southeast. Zegas recon model. Damaged but repairable.",
+                  "audio_file_location": "dialogs/ZC-SURD-Goes-Mobile/ZC-GetDrone/3-Locate and Repair the Recon Drone/01-surd.mp3"
+                },
+                {
                   "character": "Player",
-                  "dialogue": "The suit is damaged. I need to find the rest of it before the environment kills me.",
-                  "audio_file_location_female": "dialogs/ZC-Opening/ZC-Planet47/2-Suit Up/01-Player-Female.mp3",
-                  "audio_file_location_male": "dialogs/ZC-Opening/ZC-Planet47/2-Suit Up/01-Player-Male.mp3"
+                  "dialogue": "Can you tell anything from in there?",
+                  "audio_file_location_female": "dialogs/ZC-SURD-Goes-Mobile/ZC-GetDrone/3-Locate and Repair the Recon Drone/02-Player-Female.mp3",
+                  "audio_file_location_male": "dialogs/ZC-SURD-Goes-Mobile/ZC-GetDrone/3-Locate and Repair the Recon Drone/02-Player-Male.mp3"
+                },
+                {
+                  "character": "SURD",
+                  "dialogue": "I can interface with suit sensors. Barely. Find the drone faster.",
+                  "audio_file_location": "dialogs/ZC-SURD-Goes-Mobile/ZC-GetDrone/3-Locate and Repair the Recon Drone/03-surd.mp3"
                 }
               ]
             },
             {
-              "Order-Trigger": "3-Scale of the Crash",
-              "trigger": "Scale of the Crash",
-              "location$$trigger": "ZC-Planet47$$Scale of the Crash",
-              "dialogues": [
-                {
-                  "character": "Player",
-                  "dialogue": "The wreckage goes beyond the ridge.",
-                  "audio_file_location_female": "dialogs/ZC-Opening/ZC-Planet47/3-Scale of the Crash/01-Player-Female.mp3",
-                  "audio_file_location_male": "dialogs/ZC-Opening/ZC-Planet47/3-Scale of the Crash/01-Player-Male.mp3"
-                },
-                {
-                  "character": "Player",
-                  "dialogue": "This is too much ground to cover on foot.",
-                  "audio_file_location_female": "dialogs/ZC-Opening/ZC-Planet47/3-Scale of the Crash/02-Player-Female.mp3",
-                  "audio_file_location_male": "dialogs/ZC-Opening/ZC-Planet47/3-Scale of the Crash/02-Player-Male.mp3"
-                },
-                {
-                  "character": "Player",
-                  "dialogue": "I quickly need to find Food, water, comms, survivors. One thing at a time.",
-                  "audio_file_location_female": "dialogs/ZC-Opening/ZC-Planet47/3-Scale of the Crash/03-Player-Female.mp3",
-                  "audio_file_location_male": "dialogs/ZC-Opening/ZC-Planet47/3-Scale of the Crash/03-Player-Male.mp3"
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "location": "ZC-Planet47-Creatures-Intro",
-          "triggers": [
-            {
-              "Order-Trigger": "1-Sounds in the Smoke",
-              "trigger": "Sounds in the Smoke",
-              "location$$trigger": "ZC-Planet47-Creatures-Intro$$Sounds in the Smoke",
-              "dialogues": [
-                {
-                  "character": "Player",
-                  "dialogue": "(quiet) What is that sound?",
-                  "audio_file_location_female": "dialogs/ZC-Opening/ZC-Planet47-Creatures-Intro/1-Sounds in the Smoke/01-Player-Female.mp3",
-                  "audio_file_location_male": "dialogs/ZC-Opening/ZC-Planet47-Creatures-Intro/1-Sounds in the Smoke/01-Player-Male.mp3"
-                }
-              ]
-            },
-            {
-              "Order-Trigger": "2-What Was That",
-              "trigger": "What Was That",
-              "location$$trigger": "ZC-Planet47-Creatures-Intro$$What Was That",
-              "dialogues": [
-                {
-                  "character": "Player",
-                  "dialogue": "What the hell are these creatures?",
-                  "audio_file_location_female": "dialogs/ZC-Opening/ZC-Planet47-Creatures-Intro/2-What Was That/01-Player-Female.mp3",
-                  "audio_file_location_male": "dialogs/ZC-Opening/ZC-Planet47-Creatures-Intro/2-What Was That/01-Player-Male.mp3"
-                },
-                {
-                  "character": "Player",
-                  "dialogue": "Zegas said this planet was uninhabited.",
-                  "audio_file_location_female": "dialogs/ZC-Opening/ZC-Planet47-Creatures-Intro/2-What Was That/02-Player-Female.mp3",
-                  "audio_file_location_male": "dialogs/ZC-Opening/ZC-Planet47-Creatures-Intro/2-What Was That/02-Player-Male.mp3"
-                },
-                {
-                  "character": "Player",
-                  "dialogue": "Better hide and find comms soon.",
-                  "audio_file_location_female": "dialogs/ZC-Opening/ZC-Planet47-Creatures-Intro/2-What Was That/03-Player-Female.mp3",
-                  "audio_file_location_male": "dialogs/ZC-Opening/ZC-Planet47-Creatures-Intro/2-What Was That/03-Player-Male.mp3"
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "location": "ZC-What-Now",
-          "triggers": [
-            {
-              "Order-Trigger": "1-No Survivors Found",
-              "trigger": "No Survivors Found",
-              "location$$trigger": "ZC-What-Now$$No Survivors Found",
-              "dialogues": [
-                {
-                  "character": "Player",
-                  "dialogue": "I need food and water. I cannot find working comms anywhere.",
-                  "audio_file_location_female": "dialogs/ZC-Opening/ZC-What-Now/1-No Survivors Found/01-Player-Female.mp3",
-                  "audio_file_location_male": "dialogs/ZC-Opening/ZC-What-Now/1-No Survivors Found/01-Player-Male.mp3"
-                },
-                {
-                  "character": "Player",
-                  "dialogue": "No hunting. No unknown water. Zegas survival stock only.",
-                  "audio_file_location_female": "dialogs/ZC-Opening/ZC-What-Now/1-No Survivors Found/02-Player-Female.mp3",
-                  "audio_file_location_male": "dialogs/ZC-Opening/ZC-What-Now/1-No Survivors Found/02-Player-Male.mp3"
-                }
-              ]
-            },
-            {
-              "Order-Trigger": "2-SURD Terminal Found",
-              "trigger": "SURD Terminal Found",
-              "location$$trigger": "ZC-What-Now$$SURD Terminal Found",
+              "Order-Trigger": "4-Boot SURD's Portable Body",
+              "trigger": "Boot SURD's Portable Body",
+              "location$$trigger": "ZC-GetDrone$$Boot SURD's Portable Body",
               "dialogues": [
                 {
                   "character": "SURD",
-                  "dialogue": "Who is this? Identify yourself.",
-                  "audio_file_location": "dialogs/ZC-Opening/ZC-What-Now/2-SURD Terminal Found/01-surd.mp3"
+                  "dialogue": "Portable systems online.",
+                  "audio_file_location": "dialogs/ZC-SURD-Goes-Mobile/ZC-GetDrone/4-Boot SURD's Portable Body/01-surd.mp3"
                 },
                 {
                   "character": "Player",
-                  "dialogue": "I am the player. We crashed. I cannot find comms. What is the status of the survivors?",
-                  "audio_file_location_female": "dialogs/ZC-Opening/ZC-What-Now/2-SURD Terminal Found/02-Player-Female.mp3",
-                  "audio_file_location_male": "dialogs/ZC-Opening/ZC-What-Now/2-SURD Terminal Found/02-Player-Male.mp3"
+                  "dialogue": "You can fly?",
+                  "audio_file_location_female": "dialogs/ZC-SURD-Goes-Mobile/ZC-GetDrone/4-Boot SURD's Portable Body/02-Player-Female.mp3",
+                  "audio_file_location_male": "dialogs/ZC-SURD-Goes-Mobile/ZC-GetDrone/4-Boot SURD's Portable Body/02-Player-Male.mp3"
                 },
                 {
                   "character": "SURD",
-                  "dialogue": "Crash event confirmed. I lost contact with life support systems. I do not have survivor data.",
-                  "audio_file_location": "dialogs/ZC-Opening/ZC-What-Now/2-SURD Terminal Found/03-surd.mp3"
+                  "dialogue": "Limited altitude. Limited weapon power. Expanded attitude.",
+                  "audio_file_location": "dialogs/ZC-SURD-Goes-Mobile/ZC-GetDrone/4-Boot SURD's Portable Body/03-surd.mp3"
                 },
                 {
                   "character": "Player",
-                  "dialogue": "I have not found anyone. Not even bodies.",
-                  "audio_file_location_female": "dialogs/ZC-Opening/ZC-What-Now/2-SURD Terminal Found/04-Player-Female.mp3",
-                  "audio_file_location_male": "dialogs/ZC-Opening/ZC-What-Now/2-SURD Terminal Found/04-Player-Male.mp3"
+                  "dialogue": "I regret giving you a body already.",
+                  "audio_file_location_female": "dialogs/ZC-SURD-Goes-Mobile/ZC-GetDrone/4-Boot SURD's Portable Body/04-Player-Female.mp3",
+                  "audio_file_location_male": "dialogs/ZC-SURD-Goes-Mobile/ZC-GetDrone/4-Boot SURD's Portable Body/04-Player-Male.mp3"
                 },
                 {
                   "character": "SURD",
-                  "dialogue": "Unknown variable. Do not conclude total loss without data.",
-                  "audio_file_location": "dialogs/ZC-Opening/ZC-What-Now/2-SURD Terminal Found/05-surd.mp3"
-                },
-                {
-                  "character": "SURD",
-                  "dialogue": "I cannot establish comms with Orbital Command from this terminal.",
-                  "audio_file_location": "dialogs/ZC-Opening/ZC-What-Now/2-SURD Terminal Found/06-surd.mp3"
-                }
-              ]
-            },
-            {
-              "Order-Trigger": "3-Find Type-P Terminal",
-              "trigger": "Find Type-P Terminal",
-              "location$$trigger": "ZC-What-Now$$Find Type-P Terminal",
-              "dialogues": [
-                {
-                  "character": "SURD",
-                  "dialogue": "Find a Type-P Terminal. It can hold my active node and allow portable transfer.",
-                  "audio_file_location": "dialogs/ZC-Opening/ZC-What-Now/3-Find Type-P Terminal/01-surd.mp3"
-                },
-                {
-                  "character": "Player",
-                  "dialogue": "Where?",
-                  "audio_file_location_female": "dialogs/ZC-Opening/ZC-What-Now/3-Find Type-P Terminal/02-Player-Female.mp3",
-                  "audio_file_location_male": "dialogs/ZC-Opening/ZC-What-Now/3-Find Type-P Terminal/02-Player-Male.mp3"
-                },
-                {
-                  "character": "SURD",
-                  "dialogue": "Three possible locations within the crash zone. I am transmitting coordinates.",
-                  "audio_file_location": "dialogs/ZC-Opening/ZC-What-Now/3-Find Type-P Terminal/03-surd.mp3"
-                },
-                {
-                  "character": "Player",
-                  "dialogue": "And if none of them are intact?",
-                  "audio_file_location_female": "dialogs/ZC-Opening/ZC-What-Now/3-Find Type-P Terminal/04-Player-Female.mp3",
-                  "audio_file_location_male": "dialogs/ZC-Opening/ZC-What-Now/3-Find Type-P Terminal/04-Player-Male.mp3"
-                },
-                {
-                  "character": "SURD",
-                  "dialogue": "Then keep looking. The alternative is worse.",
-                  "audio_file_location": "dialogs/ZC-Opening/ZC-What-Now/3-Find Type-P Terminal/05-surd.mp3"
+                  "dialogue": "Regret logged. Continuing mission support.",
+                  "audio_file_location": "dialogs/ZC-SURD-Goes-Mobile/ZC-GetDrone/4-Boot SURD's Portable Body/05-surd.mp3"
                 }
               ]
             }
